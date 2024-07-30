@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Intellij
+idea
+.idea/
+
+# Sqlite
+*.sqlite3
+
+# Virtual envs
+venv
+venv/
+
+# Keys
+*.pem
+
+# Distribution / packaging
+bin/
+build/
+dist/
