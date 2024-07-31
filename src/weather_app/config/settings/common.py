@@ -10,7 +10,11 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
+from datetime import timedelta
+from os import getenv
 from pathlib import Path
+
+from weather_app.common.utils import read_file
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -78,6 +82,9 @@ REST_FRAMEWORK = {
     "PAGE_SIZE": 10,
     "ORDERING_PARAM": "order_by",
     "DEFAULT_PERMISSION_CLASSES": ("rest_framework.permissions.IsAuthenticated",),
+    "DEFAULT_AUTHENTICATION_CLASSES": (
+        "iam.auth.authentications.JWTBearerAuthentication",
+    ),
     "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
     "EXCEPTION_HANDLER": "weather_app.common.views.custom_exception_handler",
 }
@@ -125,6 +132,24 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 # Set trailing slashes as required for POST and PATCH
 APPEND_SLASH = True
+
+# SimpleJWT settings
+SIMPLEJWT_PRIVATE_KEY = read_file(getenv("JWT_PRIVATE_KEY"))
+SIMPLEJWT_PUBLIC_KEY = read_file(getenv("JWT_PUBLIC_KEY"))
+SIMPLE_JWT = {
+    "ACCESS_TOKEN_LIFETIME": timedelta(minutes=30),
+    "REFRESH_TOKEN_LIFETIME": timedelta(days=1),
+    "UPDATE_LAST_LOGIN": True,
+    "ALGORITHM": "RS512",
+    "SIGNING_KEY": SIMPLEJWT_PRIVATE_KEY,
+    "VERIFYING_KEY": SIMPLEJWT_PUBLIC_KEY,
+    "USER_ID_FIELD": "uuid",
+    "USER_ID_CLAIM": "user_uuid",
+    "AUTH_TOKEN_CLASSES": ("rest_framework_simplejwt.tokens.AccessToken",),
+    "TOKEN_TYPE_CLAIM": "token_type",
+    "AUTH_HEADER_TYPES": ("Bearer",),
+    "AUTH_HEADER_NAME": "HTTP_AUTHORIZATION",
+}
 
 # DRF-Spectacular settings
 SPECTACULAR_SETTINGS = {
