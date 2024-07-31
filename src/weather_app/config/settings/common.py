@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "rest_framework",
     "drf_spectacular",
+    "weather_app.iam.apps.IamConfig",
 ]
 
 MIDDLEWARE = [
@@ -49,6 +50,9 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = "weather_app.config.urls"
+
+# Default User model used for authentication
+AUTH_USER_MODEL = "iam.User"
 
 TEMPLATES = [
     {
