@@ -15,6 +15,7 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 
+from django.conf.urls import include
 from django.contrib import admin
 from django.urls import path
 from drf_spectacular.views import (
@@ -41,4 +42,6 @@ urlpatterns = [
         SpectacularRedocView.as_view(url_name="schema"),
         name="redoc",
     ),
+    # IAM endpoints
+    path("api/v1/", include("weather_app.iam.urls")),
 ]
