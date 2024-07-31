@@ -17,10 +17,28 @@ Including another URLconf
 
 from django.contrib import admin
 from django.urls import path
+from drf_spectacular.views import (
+    SpectacularAPIView,
+    SpectacularRedocView,
+    SpectacularSwaggerView,
+)
 
 from weather_app.config.views import health_check_view
 
 urlpatterns = [
     path("api/v1/ping/", health_check_view),
     path("api/v1/admin/", admin.site.urls),
+    # API Schema endpoints
+    path("api/v1/schema/", SpectacularAPIView.as_view(), name="schema"),
+    # API Schema UIs endpoints
+    path(
+        "api/v1/schema/swagger-ui/",
+        SpectacularSwaggerView.as_view(url_name="schema"),
+        name="swagger-ui",
+    ),
+    path(
+        "api/v1/schema/redoc/",
+        SpectacularRedocView.as_view(url_name="schema"),
+        name="redoc",
+    ),
 ]

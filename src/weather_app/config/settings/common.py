@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "rest_framework",
+    "drf_spectacular",
 ]
 
 MIDDLEWARE = [
@@ -73,6 +74,7 @@ REST_FRAMEWORK = {
     "PAGE_SIZE": 10,
     "ORDERING_PARAM": "order_by",
     "DEFAULT_PERMISSION_CLASSES": ("rest_framework.permissions.IsAuthenticated",),
+    "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
 }
 
 # Password validation
@@ -118,3 +120,12 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 # Set trailing slashes as required for POST and PATCH
 APPEND_SLASH = True
+
+# DRF-Spectacular settings
+SPECTACULAR_SETTINGS = {
+    "TITLE": "Weather app API",
+    "DESCRIPTION": "API for the Weather app, a simple API for registering weather measurements.",
+    "VERSION": "1.0.0",
+    "SERVE_INCLUDE_SCHEMA": True,
+    "SCHEMA_PATH_PREFIX": r"/api/v[0-9]",
+}
