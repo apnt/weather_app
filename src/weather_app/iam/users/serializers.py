@@ -19,6 +19,13 @@ class CreateUserSerializer(serializers.ModelSerializer):
         fields = ("email", "password")
 
 
+class UpdateUserSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = User
+        fields = ("is_active",)
+
+
 class UserSerializer(serializers.ModelSerializer):
 
     class Meta:

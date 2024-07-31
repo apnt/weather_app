@@ -1,7 +1,12 @@
 from drf_spectacular.utils import extend_schema, extend_schema_view
 from rest_framework import status
 from rest_framework.filters import SearchFilter, OrderingFilter
-from rest_framework.mixins import ListModelMixin, RetrieveModelMixin, CreateModelMixin
+from rest_framework.mixins import (
+    ListModelMixin,
+    RetrieveModelMixin,
+    CreateModelMixin,
+    UpdateModelMixin,
+)
 from rest_framework.response import Response
 from rest_framework.viewsets import GenericViewSet
 
@@ -10,14 +15,24 @@ from weather_app.iam.auth.authentications import JWTBearerAuthentication
 from weather_app.iam.models import User
 from weather_app.iam.users.api_schema import list_users, create_user, retrieve_user
 from weather_app.iam.users.permissions import UsersPermissions
-from weather_app.iam.users.serializers import UserSerializer, CreateUserSerializer
+from weather_app.iam.users.serializers import (
+    UserSerializer,
+    CreateUserSerializer,
+    UpdateUserSerializer,
+)
 
 
 @extend_schema(tags=["users"])
 @extend_schema_view(
     list=extend_schema(**list_users), retrieve=extend_schema(**retrieve_user)
 )
-class UserViewSet(GenericViewSet, ListModelMixin, RetrieveModelMixin, CreateModelMixin):
+class UserViewSet(
+    GenericViewSet,
+    ListModelMixin,
+    RetrieveModelMixin,
+    CreateModelMixin,
+    UpdateModelMixin,
+):
     queryset = User.objects.all()
     authentication_classes = (JWTBearerAuthentication,)
     permission_classes = (UsersPermissions,)
@@ -25,6 +40,7 @@ class UserViewSet(GenericViewSet, ListModelMixin, RetrieveModelMixin, CreateMode
     serializer_class = UserSerializer
     response_serializer_class = UserSerializer
     lookup_field = "uuid"
+    http_method_names = ["get", "post", "patch"]
 
     # filtering and ordering
     filter_backends = [SearchFilter, OrderingFilter]
@@ -33,7 +49,10 @@ class UserViewSet(GenericViewSet, ListModelMixin, RetrieveModelMixin, CreateMode
     ordering = ["date_joined"]
 
     def get_serializer_class(self):
-        return {"create": CreateUserSerializer}.get(self.action, self.serializer_class)
+        return {
+            "create": CreateUserSerializer,
+            "partial_update": UpdateUserSerializer,
+        }.get(self.action, self.serializer_class)
 
     def get_response_serializer(self, instance):
         return self.response_serializer_class(
@@ -52,5 +71,24 @@ class UserViewSet(GenericViewSet, ListModelMixin, RetrieveModelMixin, CreateMode
             response_serializer.data, status=status.HTTP_201_CREATED, headers=headers
         )
 
+    @extend_schema(**create_user)
+    def partial_update(self, request, *args, **kwargs):
+        """Registers a new user."""
+        instance = self.get_object()
+        serializer = self.get_serializer(instance, data=request.data, partial=True)
+        serializer.is_valid(raise_exception=True)
+        instance = self.perform_update(serializer)
+
+        if getattr(instance, "_prefetched_objects_cache", None):
+            # If 'prefetch_related' has been applied to a queryset, we need to
+            # forcibly invalidate the prefetch cache on the instance.
+            instance._prefetched_objects_cache = {}
+
+        response_serializer = self.get_response_serializer(instance)
+        return Response(response_serializer.data, status=status.HTTP_200_OK)
+
     def perform_create(self, serializer):
+        return serializer.save()
+
+    def perform_update(self, serializer):
         return serializer.save()
