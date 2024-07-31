@@ -75,6 +75,7 @@ REST_FRAMEWORK = {
     "ORDERING_PARAM": "order_by",
     "DEFAULT_PERMISSION_CLASSES": ("rest_framework.permissions.IsAuthenticated",),
     "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
+    "EXCEPTION_HANDLER": "weather_app.common.views.custom_exception_handler",
 }
 
 # Password validation
