@@ -2,13 +2,14 @@ from drf_spectacular.utils import extend_schema, extend_schema_view
 from rest_framework import status
 from rest_framework.filters import SearchFilter, OrderingFilter
 from rest_framework.mixins import ListModelMixin, RetrieveModelMixin, CreateModelMixin
-from rest_framework.permissions import AllowAny
 from rest_framework.response import Response
 from rest_framework.viewsets import GenericViewSet
 
 from weather_app.common.paginations import BasePagination
+from weather_app.iam.auth.authentications import JWTBearerAuthentication
 from weather_app.iam.models import User
 from weather_app.iam.users.api_schema import list_users, create_user, retrieve_user
+from weather_app.iam.users.permissions import UsersPermissions
 from weather_app.iam.users.serializers import UserSerializer, CreateUserSerializer
 
 
@@ -18,7 +19,8 @@ from weather_app.iam.users.serializers import UserSerializer, CreateUserSerializ
 )
 class UserViewSet(GenericViewSet, ListModelMixin, RetrieveModelMixin, CreateModelMixin):
     queryset = User.objects.all()
-    permission_classes = (AllowAny,)
+    authentication_classes = (JWTBearerAuthentication,)
+    permission_classes = (UsersPermissions,)
     pagination_class = BasePagination
     serializer_class = UserSerializer
     response_serializer_class = UserSerializer
