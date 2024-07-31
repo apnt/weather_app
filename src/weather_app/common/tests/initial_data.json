@@ -1,0 +1,778 @@
+[
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 4,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 4,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 4,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 4,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 5,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 5,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 5,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 5,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 6,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 6,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 6,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 6,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "iam",
+      "model": "user"
+    }
+  },
+  {
+    "model": "iam.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$iSVTu7chexeTopTBQ1qHlr$pF8MVSVYm15Hm9hXBJClG5XFJa72p1yE/7x5Swnwkl8=",
+      "last_login": null,
+      "uuid": "fc433d73-c3f5-4dfc-a910-9c8111cc20bf",
+      "email": "admin@weatherapp.com",
+      "is_superuser": true,
+      "is_service_station": false,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:45.940Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "iam.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$3337vlMiaGzC577UapHLbs$ZYTYGigVbf/vxkv5z0gii6sD6n9juFzp+RMoAoTo6Ag=",
+      "last_login": null,
+      "uuid": "98313462-8ad1-4d1e-9901-8cdfd64c759f",
+      "email": "station0@weatherapp.com",
+      "is_superuser": false,
+      "is_service_station": true,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:46.098Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "iam.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$dE8lymHJ1nfx1aj4ryDk2Y$SR5+/dZnqfviae8pveA4bQA1dxg7aKqR523CGwhdnoY=",
+      "last_login": null,
+      "uuid": "22f93f9e-f645-44bc-875a-93fa2cf7190f",
+      "email": "station1@weatherapp.com",
+      "is_superuser": false,
+      "is_service_station": true,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:46.255Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "iam.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$4JzKMyRwQfNeDv2eNeN0jU$oR/5ZM+/Y914PfqU2nnlsmTLe2bDQM/jo/wgEEUjfMw=",
+      "last_login": null,
+      "uuid": "3dd5d6c8-dfc9-4c0a-bbfd-548ff10d91b8",
+      "email": "station2@weatherapp.com",
+      "is_superuser": false,
+      "is_service_station": true,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:46.409Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "iam.user",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$DygmUMM1QKYW7Sr1zLERTR$dgNxAfrIWy/9N4CP/CPilkOlu+OraDpHa0/bIv2WFHQ=",
+      "last_login": null,
+      "uuid": "1684a817-41d3-4297-9c86-1ef74c5cb085",
+      "email": "station3@weatherapp.com",
+      "is_superuser": false,
+      "is_service_station": true,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:46.566Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "iam.user",
+    "pk": 6,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$c3fdXcuKUOO4cOCMxwbdBq$8f81afXNpEq3dPz58w8oFcNbSApq6iLbgcCFDg2DO0c=",
+      "last_login": null,
+      "uuid": "7bcd56ce-2e5e-42b0-9564-22c083816455",
+      "email": "station4@weatherapp.com",
+      "is_superuser": false,
+      "is_service_station": true,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:46.721Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "iam.user",
+    "pk": 7,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$1WhLoSdwXvb5hpLg8OM0NS$muzKSxWHtFmLytRIi9KC6yjGUSLASD4f+TQWYm9kDTA=",
+      "last_login": null,
+      "uuid": "abb0f4f9-5fea-415b-8da5-b50d1d4bf25b",
+      "email": "station5@weatherapp.com",
+      "is_superuser": false,
+      "is_service_station": true,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:46.876Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "iam.user",
+    "pk": 8,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$5ZkvR1Y1voct0DInnfdBd3$si8SBH0f47y+3N78xMqCGlxG+qavTgnjPz9cdjTKwv4=",
+      "last_login": null,
+      "uuid": "8b6d8b69-b8af-4211-b15a-fb99f7c58e5b",
+      "email": "station6@weatherapp.com",
+      "is_superuser": false,
+      "is_service_station": true,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:47.033Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "iam.user",
+    "pk": 9,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$HZQpQzPX5Py22QBDmWwbDM$b4ZEQm6gp2jVQek+QQx0NnPBKOoUI1fmHMy5TK9mJmA=",
+      "last_login": null,
+      "uuid": "12e2a15c-0a62-475a-abb9-e27d7b303ab5",
+      "email": "station7@weatherapp.com",
+      "is_superuser": false,
+      "is_service_station": true,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:47.188Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "iam.user",
+    "pk": 10,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$9DrnQGQy8k1Zu2t0p8bnar$hgXPGGrPVM6jODY3N/S8oJFbNG25OH4sJI0SqbbQKZU=",
+      "last_login": null,
+      "uuid": "19de13db-e275-441e-8601-ece1afdb9cc9",
+      "email": "station8@weatherapp.com",
+      "is_superuser": false,
+      "is_service_station": true,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:47.342Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "iam.user",
+    "pk": 11,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$tMsjaysL7DlRG6gKWdlEux$FvwGEK62Aguv5qrh8DdFOfciQ40ku5n73BqyquIfLKM=",
+      "last_login": null,
+      "uuid": "28a13552-b7f0-4b8a-9d6d-e538d5126564",
+      "email": "station9@weatherapp.com",
+      "is_superuser": false,
+      "is_service_station": true,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:47.496Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "iam.user",
+    "pk": 12,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$3YjY10zF7eLhVTE9vVk4C6$CmRulQkyX9tY6K7piziMupLiA+lnFuSs33KdrkEW9dk=",
+      "last_login": null,
+      "uuid": "996b39fc-e09a-4d05-a313-25cf9bc157a5",
+      "email": "user@test.com",
+      "is_superuser": false,
+      "is_service_station": false,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:47.650Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "iam.user",
+    "pk": 13,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$RubJVpSEfZca1gABz6JGOd$Kl5VnvP36tsNs8+xTmlf7DOP0SNDFm5wkPY9bay9iTk=",
+      "last_login": null,
+      "uuid": "b232f8d3-6ce9-4f8f-a06c-cab399814163",
+      "email": "user0@test.com",
+      "is_superuser": false,
+      "is_service_station": false,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:47.804Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "iam.user",
+    "pk": 14,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$ZodupJ9v3t1C4CjRHliSj4$UZTxCc+P+FsTTfMBhVCB28RA3JDCzLzy+fCGiJnob8k=",
+      "last_login": null,
+      "uuid": "8d56f40e-8af7-4edd-8c7a-23aa3602fa58",
+      "email": "user1@test.com",
+      "is_superuser": false,
+      "is_service_station": false,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:47.958Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "iam.user",
+    "pk": 15,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$VySE2K2zH2fop9BmV3XOvg$Dheuh9RIju74NOIX88hcFYoiUxCEky2CQWPKvRz3zag=",
+      "last_login": null,
+      "uuid": "fc9b1db5-8ab0-48cb-bc99-7b35fbda379c",
+      "email": "user2@test.com",
+      "is_superuser": false,
+      "is_service_station": false,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:48.113Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "iam.user",
+    "pk": 16,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$onjpNSij3u0qZ9Jk8fWuGB$PTV6ATFlqAkGfLCZOtlMBGjwkTwlQkMaQXa03Paj/Wk=",
+      "last_login": null,
+      "uuid": "838ab362-7ed2-4eb1-ae9a-b0f38cc423fe",
+      "email": "user3@test.com",
+      "is_superuser": false,
+      "is_service_station": false,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:48.267Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "iam.user",
+    "pk": 17,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$UZLpMiUDxB8cdHaFfTeNhT$Mtb3qnL6NOJIy6eLQd4Dz9Ug1MBGrpk19ShCJIGdxfI=",
+      "last_login": null,
+      "uuid": "7ee3931d-3452-4b2a-a667-d26dc8606051",
+      "email": "user4@test.com",
+      "is_superuser": false,
+      "is_service_station": false,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:48.421Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "iam.user",
+    "pk": 18,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$9EqYt1bfvXwLxZuJtGsyQQ$FN5hMVVnxDKEl4DDs/fZzJU8PWvMYICCs/FECSR1ZQg=",
+      "last_login": null,
+      "uuid": "0aa355ed-8a69-4e89-9847-7db31ddd00a8",
+      "email": "user5@test.com",
+      "is_superuser": false,
+      "is_service_station": false,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:48.575Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "iam.user",
+    "pk": 19,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$7KG5X7zeoIw3wzViI0iWyK$c8WaPWUf3aMrCezqn2mXcr6LYiyrVRjvRqc5i+Un2Ek=",
+      "last_login": null,
+      "uuid": "dbb90f5c-b9f1-4dd1-8a06-0615a4106346",
+      "email": "user6@test.com",
+      "is_superuser": false,
+      "is_service_station": false,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:48.736Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "iam.user",
+    "pk": 20,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$S2az2wguCrXllK76qvjUEe$LPM2XNT7aK92yJ9DtS3SG4DIqA/UvHNYMunXvtEdXek=",
+      "last_login": null,
+      "uuid": "1a19f654-e8b4-414b-bba8-63df6b583183",
+      "email": "user7@test.com",
+      "is_superuser": false,
+      "is_service_station": false,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:48.905Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "iam.user",
+    "pk": 21,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$sUMFlAXn9nYvYuBmZKmvvo$hn6LHcq9UDi5JYaMHYyYVnQjTfNseFWJ+yn2zSQNabc=",
+      "last_login": null,
+      "uuid": "83442b12-b1f7-4ceb-8ef0-1b515e045da9",
+      "email": "user8@test.com",
+      "is_superuser": false,
+      "is_service_station": false,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:49.062Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "iam.user",
+    "pk": 22,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$5IZHLnHRR5Ye6mRxzBGjBq$e3QmY6IeE9BabjCp1HGtXUxE21m5pGApEWnP4AXn81g=",
+      "last_login": null,
+      "uuid": "42e33331-2378-4cc2-8eed-500e8ea5ab6e",
+      "email": "user9@test.com",
+      "is_superuser": false,
+      "is_service_station": false,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:49.220Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "iam.user",
+    "pk": 23,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$gJP73Z7dAKOrF4dysW6xv8$roE8aAOc+NztoLH1ZFH9k1iVi9s/l4gv/YR+UWfWMYA=",
+      "last_login": null,
+      "uuid": "fc66c375-6274-4b88-aefd-f13d33154e20",
+      "email": "user10@test.com",
+      "is_superuser": false,
+      "is_service_station": false,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:49.377Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "iam.user",
+    "pk": 24,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$qpvoIG7AdTklks4OuvQaMA$wGIdRSInP/ekFqOQQsgOyo07TPmOPpZ9bsqXldqIIGM=",
+      "last_login": null,
+      "uuid": "eae4a453-18de-4409-b8f1-3a23c4bdd345",
+      "email": "user11@test.com",
+      "is_superuser": false,
+      "is_service_station": false,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:49.534Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "iam.user",
+    "pk": 25,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$bGrmnwMbtdFPlfm3Xl4w4Z$IoABTbk5k3lYq9CdETmtDQJziWdsjHnFEmI+ds2or5w=",
+      "last_login": null,
+      "uuid": "4391643c-0214-4e45-9afa-188f5190ceea",
+      "email": "user12@test.com",
+      "is_superuser": false,
+      "is_service_station": false,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:49.691Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "iam.user",
+    "pk": 26,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$8vN5jhOeCkJfTc63dyaA2J$BLF4dYQx5Ml+HTBUw91VntAtgbypEkWylkMj/7WTXoI=",
+      "last_login": null,
+      "uuid": "a1b911a5-a645-4edd-b00d-592cf3446695",
+      "email": "user13@test.com",
+      "is_superuser": false,
+      "is_service_station": false,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:49.848Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "iam.user",
+    "pk": 27,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$eqd2i3z18CKGRevM8sIWCv$wc2QjvDcTMm4XpLRJinYvQK9CZ402eHA1vk7r2PVPFU=",
+      "last_login": null,
+      "uuid": "1a36c80a-553d-4614-96eb-49e23ab097d3",
+      "email": "user14@test.com",
+      "is_superuser": false,
+      "is_service_station": false,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:50.006Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "iam.user",
+    "pk": 28,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$XZ1uWoSZIL5BKKcnW5Fkmz$c1qeAuRWg+QTCqz419xsKVvsOqcybj2U3XMziUge8MQ=",
+      "last_login": null,
+      "uuid": "5be74b2a-8512-497e-af2b-35589b39139a",
+      "email": "user15@test.com",
+      "is_superuser": false,
+      "is_service_station": false,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:50.163Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "iam.user",
+    "pk": 29,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$V5PxOriFCBQoBUyl74ftG7$54cDHdh7gT9CQnYkuLvOIZWHsE9dLvFaRNSg7bIqLDk=",
+      "last_login": null,
+      "uuid": "e3c9d49a-a8ba-4ef7-8c02-72c695b6e738",
+      "email": "user16@test.com",
+      "is_superuser": false,
+      "is_service_station": false,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:50.320Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "iam.user",
+    "pk": 30,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$4k5s9iMrPUaz5f7SRDtwkT$PNKTis7WS8Ud4Xbv1Vt72m+RSOKNUOgS2+2lngJcqRg=",
+      "last_login": null,
+      "uuid": "ea332a74-deaf-4470-aefa-0679c86a33e7",
+      "email": "user17@test.com",
+      "is_superuser": false,
+      "is_service_station": false,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:50.478Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "iam.user",
+    "pk": 31,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$v47jBhJB1hfWgK3q03iMXu$CJZiDUsbL18s17wAnQCtkVhjpIxOGpRNIYCs/OsQ1B4=",
+      "last_login": null,
+      "uuid": "061219d6-1dba-456b-a335-9bae14569817",
+      "email": "user18@test.com",
+      "is_superuser": false,
+      "is_service_station": false,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:50.634Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "iam.user",
+    "pk": 32,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$GnjIT60mAlEWmP0hBk0RLm$Hpk8xB57hPYSIJDD4KY+xzfIFHxsnvKlsoRNEcn5Eho=",
+      "last_login": null,
+      "uuid": "3b1ae566-78f9-4f7c-9e87-3a95339c2213",
+      "email": "user19@test.com",
+      "is_superuser": false,
+      "is_service_station": false,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:50.791Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  }
+]
