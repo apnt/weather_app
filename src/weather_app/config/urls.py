@@ -46,4 +46,6 @@ urlpatterns = [
     path("api/v1/", include("weather_app.users.urls")),
     # auth endpoints
     path("api/v1/", include("weather_app.auth.urls")),
+    # stations endpoints
+    path("api/v1/", include("weather_app.stations.urls")),
 ]

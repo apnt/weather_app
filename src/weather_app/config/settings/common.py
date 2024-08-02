@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     "rest_framework",
     "drf_spectacular",
     "weather_app.users.apps.UsersConfig",
+    "weather_app.stations.apps.StationsConfig",
 ]
 
 MIDDLEWARE = [
@@ -85,6 +86,7 @@ REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": ("auth.authentications.JWTBearerAuthentication",),
     "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
     "EXCEPTION_HANDLER": "weather_app.common.views.custom_exception_handler",
+    "COERCE_DECIMAL_TO_STRING": False,
 }
 
 # Password validation
