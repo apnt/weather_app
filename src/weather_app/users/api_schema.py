@@ -29,4 +29,4 @@ list_users = {
 }
 retrieve_user = {"description": "Fetches the user with the given uuid."}
 create_user = {"responses": {201: UserSerializer}}
-update_user = {"responses": {200: UserSerializer}}
+partial_update_user = {"responses": {200: UserSerializer}}

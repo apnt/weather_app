@@ -22,7 +22,7 @@ from weather_app.users.serializers import (
     list=extend_schema(**api_schema.list_users),
     retrieve=extend_schema(**api_schema.retrieve_user),
     create=extend_schema(**api_schema.create_user),
-    partial_update=extend_schema(**api_schema.update_user),
+    partial_update=extend_schema(**api_schema.partial_update_user),
 )
 class UserViewSet(
     GenericViewSet,

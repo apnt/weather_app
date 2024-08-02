@@ -20,8 +20,8 @@ pytestmark = pytest.mark.django_db
         (data.invalid_credentials, 401),  # test invalid credentials
         (data.admin_credentials, 200),  # test valid credentials admin
         (data.user_credentials, 200),  # test valid credentials user
-        (data.station0_credentials, 200),  # test valid credentials station0
-        (data.station1_credentials, 200),  # test valid credentials station1
+        (data.station0_user_credentials, 200),  # test valid credentials station0
+        (data.station1_user_credentials, 200),  # test valid credentials station1
     ],
 )
 def test_login(client, credentials, status_code):
@@ -53,7 +53,7 @@ def test_refresh_invalid(client, refresh_token, status_code):
     [
         (data.admin_credentials, 200),  # test valid credentials admin
         (data.user_credentials, 200),  # test valid credentials user
-        (data.station0_credentials, 200),  # test valid credentials station
+        (data.station0_user_credentials, 200),  # test valid credentials station
     ],
 )
 def test_refresh_valid(auto_login_user, credentials, status_code):
