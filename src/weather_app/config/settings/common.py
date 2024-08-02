@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "rest_framework",
     "drf_spectacular",
-    "weather_app.iam.apps.IamConfig",
+    "weather_app.users.apps.UsersConfig",
 ]
 
 MIDDLEWARE = [
@@ -56,7 +56,7 @@ MIDDLEWARE = [
 ROOT_URLCONF = "weather_app.config.urls"
 
 # Default User model used for authentication
-AUTH_USER_MODEL = "iam.User"
+AUTH_USER_MODEL = "users.User"
 
 TEMPLATES = [
     {
@@ -82,9 +82,7 @@ REST_FRAMEWORK = {
     "PAGE_SIZE": 10,
     "ORDERING_PARAM": "order_by",
     "DEFAULT_PERMISSION_CLASSES": ("rest_framework.permissions.IsAuthenticated",),
-    "DEFAULT_AUTHENTICATION_CLASSES": (
-        "iam.auth.authentications.JWTBearerAuthentication",
-    ),
+    "DEFAULT_AUTHENTICATION_CLASSES": ("auth.authentications.JWTBearerAuthentication",),
     "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
     "EXCEPTION_HANDLER": "weather_app.common.views.custom_exception_handler",
 }

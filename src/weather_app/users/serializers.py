@@ -1,7 +1,7 @@
 from django.contrib.auth.hashers import make_password
 from rest_framework import serializers
 
-from weather_app.iam.models import User
+from weather_app.users.models import User
 
 
 class CreateUserSerializer(serializers.ModelSerializer):

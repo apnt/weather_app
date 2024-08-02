@@ -2,7 +2,7 @@
 
 from drf_spectacular.utils import OpenApiParameter
 
-from weather_app.iam.users.serializers import UserSerializer
+from weather_app.users.serializers import UserSerializer
 
 list_users = {
     "description": "Fetches all users (paginated).",

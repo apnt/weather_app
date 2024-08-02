@@ -5,7 +5,7 @@ from django.contrib.auth.models import PermissionsMixin
 from django.db import models
 from django.utils import timezone
 
-from weather_app.iam.management.managers import CustomUserManager
+from weather_app.users.management.managers import CustomUserManager
 
 
 class User(AbstractBaseUser, PermissionsMixin):

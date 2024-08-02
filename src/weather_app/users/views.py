@@ -10,13 +10,13 @@ from rest_framework.mixins import (
 from rest_framework.response import Response
 from rest_framework.viewsets import GenericViewSet
 
+from weather_app.auth.authentications import JWTBearerAuthentication
 from weather_app.common.paginations import BasePagination
-from weather_app.iam.auth.authentications import JWTBearerAuthentication
-from weather_app.iam.models import User
-from weather_app.iam.users.api_schema import list_users, create_user, retrieve_user
-from weather_app.iam.users.filters import UserTypeFilter
-from weather_app.iam.users.permissions import UsersPermissions
-from weather_app.iam.users.serializers import (
+from weather_app.users.api_schema import list_users, create_user, retrieve_user
+from weather_app.users.filters import UserTypeFilter
+from weather_app.users.models import User
+from weather_app.users.permissions import UsersPermissions
+from weather_app.users.serializers import (
     UserSerializer,
     CreateUserSerializer,
     UpdateUserSerializer,

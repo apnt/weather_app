@@ -6,8 +6,8 @@ from rest_framework.response import Response
 from rest_framework_simplejwt.exceptions import TokenError
 from rest_framework_simplejwt.serializers import TokenRefreshSerializer
 
-from weather_app.iam.auth.api_schema import login, refresh
-from weather_app.iam.auth.serializers import CustomTokenObtainPairSerializer
+from weather_app.auth.api_schema import login, refresh
+from weather_app.auth.serializers import CustomTokenObtainPairSerializer
 
 
 @extend_schema(tags=["auth"])

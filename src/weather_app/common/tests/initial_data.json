@@ -259,12 +259,12 @@
     "model": "contenttypes.contenttype",
     "pk": 6,
     "fields": {
-      "app_label": "iam",
+      "app_label": "users",
       "model": "user"
     }
   },
   {
-    "model": "iam.user",
+    "model": "users.user",
     "pk": 1,
     "fields": {
       "password": "pbkdf2_sha256$720000$iSVTu7chexeTopTBQ1qHlr$pF8MVSVYm15Hm9hXBJClG5XFJa72p1yE/7x5Swnwkl8=",
@@ -280,7 +280,7 @@
     }
   },
   {
-    "model": "iam.user",
+    "model": "users.user",
     "pk": 2,
     "fields": {
       "password": "pbkdf2_sha256$720000$3337vlMiaGzC577UapHLbs$ZYTYGigVbf/vxkv5z0gii6sD6n9juFzp+RMoAoTo6Ag=",
@@ -296,7 +296,7 @@
     }
   },
   {
-    "model": "iam.user",
+    "model": "users.user",
     "pk": 3,
     "fields": {
       "password": "pbkdf2_sha256$720000$dE8lymHJ1nfx1aj4ryDk2Y$SR5+/dZnqfviae8pveA4bQA1dxg7aKqR523CGwhdnoY=",
@@ -312,7 +312,7 @@
     }
   },
   {
-    "model": "iam.user",
+    "model": "users.user",
     "pk": 4,
     "fields": {
       "password": "pbkdf2_sha256$720000$4JzKMyRwQfNeDv2eNeN0jU$oR/5ZM+/Y914PfqU2nnlsmTLe2bDQM/jo/wgEEUjfMw=",
@@ -328,7 +328,7 @@
     }
   },
   {
-    "model": "iam.user",
+    "model": "users.user",
     "pk": 5,
     "fields": {
       "password": "pbkdf2_sha256$720000$DygmUMM1QKYW7Sr1zLERTR$dgNxAfrIWy/9N4CP/CPilkOlu+OraDpHa0/bIv2WFHQ=",
@@ -344,7 +344,7 @@
     }
   },
   {
-    "model": "iam.user",
+    "model": "users.user",
     "pk": 6,
     "fields": {
       "password": "pbkdf2_sha256$720000$c3fdXcuKUOO4cOCMxwbdBq$8f81afXNpEq3dPz58w8oFcNbSApq6iLbgcCFDg2DO0c=",
@@ -360,7 +360,7 @@
     }
   },
   {
-    "model": "iam.user",
+    "model": "users.user",
     "pk": 7,
     "fields": {
       "password": "pbkdf2_sha256$720000$1WhLoSdwXvb5hpLg8OM0NS$muzKSxWHtFmLytRIi9KC6yjGUSLASD4f+TQWYm9kDTA=",
@@ -376,7 +376,7 @@
     }
   },
   {
-    "model": "iam.user",
+    "model": "users.user",
     "pk": 8,
     "fields": {
       "password": "pbkdf2_sha256$720000$5ZkvR1Y1voct0DInnfdBd3$si8SBH0f47y+3N78xMqCGlxG+qavTgnjPz9cdjTKwv4=",
@@ -392,7 +392,7 @@
     }
   },
   {
-    "model": "iam.user",
+    "model": "users.user",
     "pk": 9,
     "fields": {
       "password": "pbkdf2_sha256$720000$HZQpQzPX5Py22QBDmWwbDM$b4ZEQm6gp2jVQek+QQx0NnPBKOoUI1fmHMy5TK9mJmA=",
@@ -408,7 +408,7 @@
     }
   },
   {
-    "model": "iam.user",
+    "model": "users.user",
     "pk": 10,
     "fields": {
       "password": "pbkdf2_sha256$720000$9DrnQGQy8k1Zu2t0p8bnar$hgXPGGrPVM6jODY3N/S8oJFbNG25OH4sJI0SqbbQKZU=",
@@ -424,7 +424,7 @@
     }
   },
   {
-    "model": "iam.user",
+    "model": "users.user",
     "pk": 11,
     "fields": {
       "password": "pbkdf2_sha256$720000$tMsjaysL7DlRG6gKWdlEux$FvwGEK62Aguv5qrh8DdFOfciQ40ku5n73BqyquIfLKM=",
@@ -440,7 +440,7 @@
     }
   },
   {
-    "model": "iam.user",
+    "model": "users.user",
     "pk": 12,
     "fields": {
       "password": "pbkdf2_sha256$720000$3YjY10zF7eLhVTE9vVk4C6$CmRulQkyX9tY6K7piziMupLiA+lnFuSs33KdrkEW9dk=",
@@ -456,7 +456,7 @@
     }
   },
   {
-    "model": "iam.user",
+    "model": "users.user",
     "pk": 13,
     "fields": {
       "password": "pbkdf2_sha256$720000$RubJVpSEfZca1gABz6JGOd$Kl5VnvP36tsNs8+xTmlf7DOP0SNDFm5wkPY9bay9iTk=",
@@ -472,7 +472,7 @@
     }
   },
   {
-    "model": "iam.user",
+    "model": "users.user",
     "pk": 14,
     "fields": {
       "password": "pbkdf2_sha256$720000$ZodupJ9v3t1C4CjRHliSj4$UZTxCc+P+FsTTfMBhVCB28RA3JDCzLzy+fCGiJnob8k=",
@@ -488,7 +488,7 @@
     }
   },
   {
-    "model": "iam.user",
+    "model": "users.user",
     "pk": 15,
     "fields": {
       "password": "pbkdf2_sha256$720000$VySE2K2zH2fop9BmV3XOvg$Dheuh9RIju74NOIX88hcFYoiUxCEky2CQWPKvRz3zag=",
@@ -504,7 +504,7 @@
     }
   },
   {
-    "model": "iam.user",
+    "model": "users.user",
     "pk": 16,
     "fields": {
       "password": "pbkdf2_sha256$720000$onjpNSij3u0qZ9Jk8fWuGB$PTV6ATFlqAkGfLCZOtlMBGjwkTwlQkMaQXa03Paj/Wk=",
@@ -520,7 +520,7 @@
     }
   },
   {
-    "model": "iam.user",
+    "model": "users.user",
     "pk": 17,
     "fields": {
       "password": "pbkdf2_sha256$720000$UZLpMiUDxB8cdHaFfTeNhT$Mtb3qnL6NOJIy6eLQd4Dz9Ug1MBGrpk19ShCJIGdxfI=",
@@ -536,7 +536,7 @@
     }
   },
   {
-    "model": "iam.user",
+    "model": "users.user",
     "pk": 18,
     "fields": {
       "password": "pbkdf2_sha256$720000$9EqYt1bfvXwLxZuJtGsyQQ$FN5hMVVnxDKEl4DDs/fZzJU8PWvMYICCs/FECSR1ZQg=",
@@ -552,7 +552,7 @@
     }
   },
   {
-    "model": "iam.user",
+    "model": "users.user",
     "pk": 19,
     "fields": {
       "password": "pbkdf2_sha256$720000$7KG5X7zeoIw3wzViI0iWyK$c8WaPWUf3aMrCezqn2mXcr6LYiyrVRjvRqc5i+Un2Ek=",
@@ -568,7 +568,7 @@
     }
   },
   {
-    "model": "iam.user",
+    "model": "users.user",
     "pk": 20,
     "fields": {
       "password": "pbkdf2_sha256$720000$S2az2wguCrXllK76qvjUEe$LPM2XNT7aK92yJ9DtS3SG4DIqA/UvHNYMunXvtEdXek=",
@@ -584,7 +584,7 @@
     }
   },
   {
-    "model": "iam.user",
+    "model": "users.user",
     "pk": 21,
     "fields": {
       "password": "pbkdf2_sha256$720000$sUMFlAXn9nYvYuBmZKmvvo$hn6LHcq9UDi5JYaMHYyYVnQjTfNseFWJ+yn2zSQNabc=",
@@ -600,7 +600,7 @@
     }
   },
   {
-    "model": "iam.user",
+    "model": "users.user",
     "pk": 22,
     "fields": {
       "password": "pbkdf2_sha256$720000$5IZHLnHRR5Ye6mRxzBGjBq$e3QmY6IeE9BabjCp1HGtXUxE21m5pGApEWnP4AXn81g=",
@@ -616,7 +616,7 @@
     }
   },
   {
-    "model": "iam.user",
+    "model": "users.user",
     "pk": 23,
     "fields": {
       "password": "pbkdf2_sha256$720000$gJP73Z7dAKOrF4dysW6xv8$roE8aAOc+NztoLH1ZFH9k1iVi9s/l4gv/YR+UWfWMYA=",
@@ -632,7 +632,7 @@
     }
   },
   {
-    "model": "iam.user",
+    "model": "users.user",
     "pk": 24,
     "fields": {
       "password": "pbkdf2_sha256$720000$qpvoIG7AdTklks4OuvQaMA$wGIdRSInP/ekFqOQQsgOyo07TPmOPpZ9bsqXldqIIGM=",
@@ -648,7 +648,7 @@
     }
   },
   {
-    "model": "iam.user",
+    "model": "users.user",
     "pk": 25,
     "fields": {
       "password": "pbkdf2_sha256$720000$bGrmnwMbtdFPlfm3Xl4w4Z$IoABTbk5k3lYq9CdETmtDQJziWdsjHnFEmI+ds2or5w=",
@@ -664,7 +664,7 @@
     }
   },
   {
-    "model": "iam.user",
+    "model": "users.user",
     "pk": 26,
     "fields": {
       "password": "pbkdf2_sha256$720000$8vN5jhOeCkJfTc63dyaA2J$BLF4dYQx5Ml+HTBUw91VntAtgbypEkWylkMj/7WTXoI=",
@@ -680,7 +680,7 @@
     }
   },
   {
-    "model": "iam.user",
+    "model": "users.user",
     "pk": 27,
     "fields": {
       "password": "pbkdf2_sha256$720000$eqd2i3z18CKGRevM8sIWCv$wc2QjvDcTMm4XpLRJinYvQK9CZ402eHA1vk7r2PVPFU=",
@@ -696,7 +696,7 @@
     }
   },
   {
-    "model": "iam.user",
+    "model": "users.user",
     "pk": 28,
     "fields": {
       "password": "pbkdf2_sha256$720000$XZ1uWoSZIL5BKKcnW5Fkmz$c1qeAuRWg+QTCqz419xsKVvsOqcybj2U3XMziUge8MQ=",
@@ -712,7 +712,7 @@
     }
   },
   {
-    "model": "iam.user",
+    "model": "users.user",
     "pk": 29,
     "fields": {
       "password": "pbkdf2_sha256$720000$V5PxOriFCBQoBUyl74ftG7$54cDHdh7gT9CQnYkuLvOIZWHsE9dLvFaRNSg7bIqLDk=",
@@ -728,7 +728,7 @@
     }
   },
   {
-    "model": "iam.user",
+    "model": "users.user",
     "pk": 30,
     "fields": {
       "password": "pbkdf2_sha256$720000$4k5s9iMrPUaz5f7SRDtwkT$PNKTis7WS8Ud4Xbv1Vt72m+RSOKNUOgS2+2lngJcqRg=",
@@ -744,7 +744,7 @@
     }
   },
   {
-    "model": "iam.user",
+    "model": "users.user",
     "pk": 31,
     "fields": {
       "password": "pbkdf2_sha256$720000$v47jBhJB1hfWgK3q03iMXu$CJZiDUsbL18s17wAnQCtkVhjpIxOGpRNIYCs/OsQ1B4=",
@@ -760,7 +760,7 @@
     }
   },
   {
-    "model": "iam.user",
+    "model": "users.user",
     "pk": 32,
     "fields": {
       "password": "pbkdf2_sha256$720000$GnjIT60mAlEWmP0hBk0RLm$Hpk8xB57hPYSIJDD4KY+xzfIFHxsnvKlsoRNEcn5Eho=",
