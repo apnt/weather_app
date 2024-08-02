@@ -10,7 +10,6 @@ from weather_app.auth.api_schema import login, refresh
 from weather_app.auth.serializers import CustomTokenObtainPairSerializer
 
 
-@extend_schema(tags=["auth"])
 class AuthView(GenericAPIView):
     """View that implements the user authentication (login and token refresh)"""
 
