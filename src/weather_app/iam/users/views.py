@@ -14,6 +14,7 @@ from weather_app.common.paginations import BasePagination
 from weather_app.iam.auth.authentications import JWTBearerAuthentication
 from weather_app.iam.models import User
 from weather_app.iam.users.api_schema import list_users, create_user, retrieve_user
+from weather_app.iam.users.filters import UserTypeFilter
 from weather_app.iam.users.permissions import UsersPermissions
 from weather_app.iam.users.serializers import (
     UserSerializer,
@@ -43,7 +44,7 @@ class UserViewSet(
     http_method_names = ["get", "post", "patch"]
 
     # filtering and ordering
-    filter_backends = [SearchFilter, OrderingFilter]
+    filter_backends = [SearchFilter, OrderingFilter, UserTypeFilter]
     search_fields = ["email"]
     ordering_fields = ["date_joined", "last_login", "email"]
     ordering = ["date_joined"]

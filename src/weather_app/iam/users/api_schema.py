@@ -17,6 +17,13 @@ list_users = {
         OpenApiParameter(
             name="search",
             description="A search term that is used to find matches in the email field.",
+            type=str,
+        ),
+        OpenApiParameter(
+            name="user_type",
+            description="A user type to filter the results.",
+            type=str,
+            enum=["admin", "service_station", "viewer"],
         ),
     ],
 }
