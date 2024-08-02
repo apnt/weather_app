@@ -216,6 +216,42 @@
     }
   },
   {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add station",
+      "content_type": 7,
+      "codename": "add_station"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change station",
+      "content_type": 7,
+      "codename": "change_station"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete station",
+      "content_type": 7,
+      "codename": "delete_station"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view station",
+      "content_type": 7,
+      "codename": "view_station"
+    }
+  },
+  {
     "model": "contenttypes.contenttype",
     "pk": 1,
     "fields": {
@@ -261,6 +297,14 @@
     "fields": {
       "app_label": "users",
       "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "stations",
+      "model": "station"
     }
   },
   {
@@ -773,6 +817,142 @@
       "date_joined": "2024-07-31T18:56:50.791Z",
       "groups": [],
       "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 33,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$TcmdrvEsyUwdTeT9cU3b1b$KW5kx2w2zk38lno1CgOCXY4qc0s0RIRgQ6+zD/tNsTM=",
+      "last_login": null,
+      "uuid": "dd478d01-be0b-421d-bb5e-5b2970c013ba",
+      "email": "test_station@weatherapp.com",
+      "is_superuser": false,
+      "is_service_station": true,
+      "is_active": true,
+      "date_joined": "2024-08-02 19:27:04.326843+00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 1,
+    "fields": {
+      "uuid": "7bcb4778-244f-4fbe-946b-565eb8cb2a2d",
+      "name": "Athens station",
+      "latitude": "37.979450",
+      "longitude": "23.716220",
+      "date_created": "2024-08-02T19:10:34.533Z",
+      "user_id": 2
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 2,
+    "fields": {
+      "uuid": "44bebc5d-721c-4a2f-86e1-3c20dd1a2314",
+      "name": "Thessaloniki station",
+      "latitude": "40.643610",
+      "longitude": "22.930860",
+      "date_created": "2024-08-02T19:10:34.535Z",
+      "user_id": 3
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 3,
+    "fields": {
+      "uuid": "2fa5eda7-a093-44de-b886-14949f49fa97",
+      "name": "Heraklion station",
+      "latitude": "35.327870",
+      "longitude": "25.143410",
+      "date_created": "2024-08-02T19:10:34.536Z",
+      "user_id": 4
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 4,
+    "fields": {
+      "uuid": "9188085f-21cb-4df1-9af4-d9317734523e",
+      "name": "Larissa station",
+      "latitude": "39.636890",
+      "longitude": "22.417610",
+      "date_created": "2024-08-02T19:10:34.537Z",
+      "user_id": 5
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 5,
+    "fields": {
+      "uuid": "7abcaf2e-9a19-4d68-89f3-0a0bf5ba76be",
+      "name": "Patras station",
+      "latitude": "38.244440",
+      "longitude": "21.734440",
+      "date_created": "2024-08-02T19:10:34.538Z",
+      "user_id": 6
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 6,
+    "fields": {
+      "uuid": "048175ea-a954-420f-9d36-ec1884a1256c",
+      "name": "Ioannina station",
+      "latitude": "39.664860",
+      "longitude": "20.851890",
+      "date_created": "2024-08-02T19:10:34.540Z",
+      "user_id": 7
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 7,
+    "fields": {
+      "uuid": "33e40516-756f-49b8-91f4-1cee87fbdc1b",
+      "name": "Alexandroupoli station",
+      "latitude": "40.849950",
+      "longitude": "25.876440",
+      "date_created": "2024-08-02T19:10:34.541Z",
+      "user_id": 8
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 8,
+    "fields": {
+      "uuid": "97e8a174-b04e-45ef-a479-fef4c6bce778",
+      "name": "Serres station",
+      "latitude": "41.084990",
+      "longitude": "23.547570",
+      "date_created": "2024-08-02T19:10:34.542Z",
+      "user_id": 9
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 9,
+    "fields": {
+      "uuid": "9260eb59-9e76-4edc-a0ef-26648c70ea67",
+      "name": "Rhodes station",
+      "latitude": "36.440830",
+      "longitude": "28.222500",
+      "date_created": "2024-08-02T19:10:34.543Z",
+      "user_id": 10
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 10,
+    "fields": {
+      "uuid": "ee0ded58-4220-4d76-9288-0cf20b3ca38b",
+      "name": "Trikala station",
+      "latitude": "39.554930",
+      "longitude": "21.768370",
+      "date_created": "2024-08-02T19:10:34.544Z",
+      "user_id": 11
     }
   }
 ]
