@@ -18,14 +18,14 @@ class UpdateOrCreateStationSerializer(serializers.ModelSerializer):
     latitude = serializers.DecimalField(
         min_value=Decimal(-90.0),
         max_value=Decimal(90.0),
-        max_digits=8,
-        decimal_places=6,
+        max_digits=12,
+        decimal_places=None,
     )
     longitude = serializers.DecimalField(
         min_value=Decimal(-180.0),
         max_value=Decimal(180.0),
-        max_digits=9,
-        decimal_places=6,
+        max_digits=12,
+        decimal_places=None,
     )
     user = serializers.SlugRelatedField(
         many=False, slug_field="uuid", queryset=User.objects.all(), required=True
@@ -47,6 +47,12 @@ class UpdateOrCreateStationSerializer(serializers.ModelSerializer):
                 code="invalid",
             )
         return user
+
+    def validate_latitude(self, latitude):
+        return round(latitude, 6)
+
+    def validate_longitude(self, longitude):
+        return round(longitude, 6)
 
     class Meta:
         model = Station
