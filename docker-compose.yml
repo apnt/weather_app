@@ -1,0 +1,58 @@
+services:
+  postgres_db:
+    image: postgres
+    container_name: postgresql
+    restart: always
+    volumes:
+      - ./db/postgres_db:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U postgres -d postgres" ]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    ports:
+      - 5432:5432
+  weather_app_load_db:
+    build: ./
+    image: weather_app_be
+    container_name: weather_app_load_db
+    restart: no
+    command: >
+      /bin/bash -c "python manage.py migrate &&
+                    python manage.py loaddata ./tests/data/initial_data.json"
+    env_file: .env
+    depends_on:
+      postgres_db:
+        condition: service_healthy
+  weather_app_api_tests:
+    image: weather_app_be
+    container_name: weather_app_api_tests
+    command: pytest
+    env_file: .env
+    depends_on:
+      postgres_db:
+        condition: service_healthy
+  weather_app_api:
+    image: weather_app_be
+    container_name: weather_app_api
+    command: gunicorn config.wsgi:application --bind=0.0.0.0:8000 -w 4 --log-level info --access-logfile -
+    healthcheck:
+      test: curl --fail http://localhost:8000/api/v1/ping/ || exit 1
+      interval: 30s
+      timeout: 30s
+      retries: 5
+      start_period: 60s
+    env_file: .env
+    ports:
+      - 8000:8000
+    depends_on:
+      postgres_db:
+        condition: service_healthy
+      weather_app_load_db:
+        condition: service_completed_successfully
+      weather_app_api_tests:
+        condition: service_completed_successfully
