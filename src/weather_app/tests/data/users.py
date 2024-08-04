@@ -33,48 +33,14 @@ new_user_missing_password_data = {"email": "newuser1@test.com"}
 new_user_existing_email_data = {"email": "user@test.com", "password": "456"}
 new_user_valid_data = {"email": "newuser@test.com", "password": "456"}
 
+# List/filter user test data
+total_users_count = 33
+# query_params + count
+admin_users_filter = [{"user_type": "admin"}, 1]
+station_users_filter = [{"user_type": "service_station"}, 11]
+viewer_users_filter = [{"user_type": "viewer"}, 21]
+
 # Update user test data
 updated_user_data_valid = {"is_active": False}
 updated_user_data_invalid = {"is_active": "test"}
 updated_user_data_ignored = {"is_superuser": True}
-
-
-# Station creation test data
-athens_station = "7bcb4778-244f-4fbe-946b-565eb8cb2a2d"
-create_valid_station = {
-    "user": test_station_user_uuid,
-    "name": "Test station",
-    "latitude": 10.0,
-    "longitude": 30.0,
-}
-create_station_empty_data = {}
-station_missing_user = {k: v for k, v in create_valid_station.items() if k != "user"}
-station_missing_name = {k: v for k, v in create_valid_station.items() if k != "name"}
-station_missing_latitude = {
-    k: v for k, v in create_valid_station.items() if k != "latitude"
-}
-station_missing_longitude = {
-    k: v for k, v in create_valid_station.items() if k != "longitude"
-}
-station_user_already_associated = dict(create_valid_station, user=station0_user_uuid)
-station_user_is_admin = dict(create_valid_station, user=admin_uuid)
-station_user_is_viewer = dict(create_valid_station, user=user_uuid)
-station_name_exists = dict(create_valid_station, name="Athens station")
-station_too_small_latitude = dict(create_valid_station, latitude=-91.0)
-station_too_large_latitude = dict(create_valid_station, latitude=91.0)
-station_too_small_longitude = dict(create_valid_station, longitude=-181.0)
-station_too_large_longitude = dict(create_valid_station, longitude=181.0)
-
-# Station update test data
-update_latitude_too_small = {"latitude": -91.0}
-update_latitude_too_large = {"latitude": 91.0}
-update_latitude_valid = {"latitude": 50.0}
-update_longitude_too_small = {"longitude": -181.0}
-update_longitude_too_large = {"longitude": 181.0}
-update_longitude_valid = {"longitude": 50.0}
-update_name = {"name": "Test name"}
-update_user_admin = {"user": admin_uuid}
-update_user_viewer = {"user": user_uuid}
-update_user_station_associated = {"user": station1_user_uuid}
-update_user_same_as_current = {"user": station0_user_uuid}
-update_user_valid = {"user": test_station_user_uuid}

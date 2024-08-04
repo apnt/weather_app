@@ -27,3 +27,7 @@ def get_random_string(
     chars = list(chars_to_use)
     random.shuffle(chars)
     return "".join(random.choices(chars, k=length))
+
+
+def create_missing_dict(dictionary, key_to_remove):
+    return {k: v for k, v in dictionary.items() if k != key_to_remove}

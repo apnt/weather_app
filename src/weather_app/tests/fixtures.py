@@ -1,6 +1,6 @@
 import pytest
 
-from weather_app.common.tests.config import auth_url, default_post_args
+from weather_app.tests.config import auth_url, default_post_args
 
 
 @pytest.fixture

@@ -2,10 +2,10 @@
 
 import pytest
 
-from weather_app.common.tests import data
-from weather_app.common.tests.config import users_url, user_url, default_post_args
-from weather_app.common.tests.fixtures import auto_login_user
-from weather_app.common.tests.utils import get_auth_header
+from weather_app.tests.config import users_url, user_url, default_post_args
+from weather_app.tests.data import users as data
+from weather_app.tests.fixtures import auto_login_user
+from weather_app.tests.utils import get_auth_header
 
 # mark all tests as needing database access
 pytestmark = pytest.mark.django_db
@@ -29,14 +29,12 @@ def test_register_user(client, new_user_data, status_code):
 @pytest.mark.parametrize(
     "credentials, status_code, total_users",
     [
-        (data.invalid_credentials, 401, None),  # test unauthenticated
-        (data.user_credentials, 403, None),  # test unauthorized user (simple user)
-        (
-            data.station0_user_credentials,
-            403,
-            None,
-        ),  # test unauthorized user (service station user)
-        (data.admin_credentials, 200, 33),  # test authorized admin
+        # test unauthenticated, unauthorized user (simple user + service station user)
+        (data.invalid_credentials, 401, None),
+        (data.user_credentials, 403, None),
+        (data.station0_user_credentials, 403, None),
+        # test authorized admin
+        (data.admin_credentials, 200, 33),
     ],
 )
 def test_list_users(auto_login_user, credentials, status_code, total_users):
@@ -50,24 +48,9 @@ def test_list_users(auto_login_user, credentials, status_code, total_users):
 @pytest.mark.parametrize(
     "credentials, status_code, query_params, total_users",
     [
-        (
-            data.admin_credentials,
-            200,
-            {"user_type": "admin"},
-            1,
-        ),  # test authorized admin - filter admins
-        (
-            data.admin_credentials,
-            200,
-            {"user_type": "service_station"},
-            11,
-        ),  # test authorized admin - filter stations
-        (
-            data.admin_credentials,
-            200,
-            {"user_type": "viewer"},
-            21,
-        ),  # test authorized admin - filter simple users (viewers)
+        (data.admin_credentials, 200, *data.admin_users_filter),
+        (data.admin_credentials, 200, *data.station_users_filter),
+        (data.admin_credentials, 200, *data.viewer_users_filter),
     ],
 )
 def test_filter_users(
@@ -83,14 +66,12 @@ def test_filter_users(
 @pytest.mark.parametrize(
     "credentials, status_code, email",
     [
-        (data.invalid_credentials, 401, None),  # test unauthenticated
-        (data.user_credentials, 403, None),  # test unauthorized user (simple user)
-        (
-            data.station0_user_credentials,
-            403,
-            None,
-        ),  # test unauthorized user (service station user)
-        (data.admin_credentials, 200, "user@test.com"),  # test authorized admin
+        # test unauthenticated, unauthorized user (simple user + sevice station user)
+        (data.invalid_credentials, 401, None),
+        (data.user_credentials, 403, None),
+        (data.station0_user_credentials, 403, None),
+        # test authorized admin
+        (data.admin_credentials, 200, "user@test.com"),
     ],
 )
 def test_retrieve_user(auto_login_user, credentials, status_code, email):

@@ -2,10 +2,10 @@
 
 import pytest
 
-from weather_app.common.tests import data
-from weather_app.common.tests.config import auth_url, default_post_args
-from weather_app.common.tests.fixtures import auto_login_user
-from weather_app.common.tests.utils import get_random_string
+from weather_app.tests.config import auth_url, default_post_args
+from weather_app.tests.data import users as data
+from weather_app.tests.fixtures import auto_login_user
+from weather_app.tests.utils import get_random_string
 
 # mark all tests as needing database access
 pytestmark = pytest.mark.django_db
