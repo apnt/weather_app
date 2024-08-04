@@ -1,6 +1,7 @@
 from decimal import Decimal
 
 from rest_framework import serializers
+from rest_framework.exceptions import ValidationError
 
 from weather_app.common import constants
 from weather_app.measurements.models import Measurement
@@ -76,11 +77,24 @@ class UpdateMeasurementSerializer(serializers.ModelSerializer):
 
 class CreateMeasurementSerializer(UpdateMeasurementSerializer):
     station = serializers.SlugRelatedField(
-        many=False, slug_field="uuid", queryset=Station.objects.all(), required=True
+        many=False,
+        slug_field="uuid",
+        queryset=Station.objects.select_related("user").all(),
+        required=True,
     )
     date_captured = serializers.DateTimeField(
         input_formats=constants.VALID_DATETIME_INPUT_FORMATS
     )
+
+    def validate(self, attrs):
+        user = self.context.get("request").user
+        station = attrs.get("station")
+        if user.is_service_station and station.user != user:
+            raise ValidationError(
+                "A service station user cannot create measurements for other stations.",
+                code="invalid",
+            )
+        return attrs
 
     class Meta:
         model = Measurement
