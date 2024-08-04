@@ -1,6 +1,6 @@
 from drf_spectacular.utils import extend_schema, extend_schema_view
 from rest_framework.filters import SearchFilter, OrderingFilter
-from rest_framework.mixins import ListModelMixin, RetrieveModelMixin, DestroyModelMixin
+from rest_framework.mixins import ListModelMixin, RetrieveModelMixin
 from rest_framework.viewsets import GenericViewSet
 
 from weather_app.auth.authentications import JWTBearerAuthentication
@@ -29,7 +29,6 @@ class StationViewSet(
     RetrieveModelMixin,
     CustomCreateModelMixin,
     CustomUpdateModelMixin,
-    DestroyModelMixin,
 ):
     queryset = Station.objects.select_related("user").all()
     authentication_classes = (JWTBearerAuthentication,)
