@@ -3,6 +3,7 @@ from decimal import Decimal
 from rest_framework import serializers
 from rest_framework.exceptions import ValidationError
 
+from weather_app.common import constants
 from weather_app.stations.models import Station
 from weather_app.users.models import User
 
@@ -15,16 +16,18 @@ class BaseUserSerializer(serializers.ModelSerializer):
 
 
 class UpdateOrCreateStationSerializer(serializers.ModelSerializer):
+    # Allow more decimals to be sent and round to the specified in the database.
+    # Sending more than the max digits specified in each field will result in a 400 response.
     latitude = serializers.DecimalField(
-        min_value=Decimal(-90.0),
-        max_value=Decimal(90.0),
-        max_digits=12,
+        min_value=Decimal(constants.MIN_LATITUDE),
+        max_value=Decimal(constants.MAX_LATITUDE),
+        max_digits=20,
         decimal_places=None,
     )
     longitude = serializers.DecimalField(
-        min_value=Decimal(-180.0),
-        max_value=Decimal(180.0),
-        max_digits=12,
+        min_value=Decimal(constants.MIN_LONGITUDE),
+        max_value=Decimal(constants.MAX_LONGITUDE),
+        max_digits=20,
         decimal_places=None,
     )
     user = serializers.SlugRelatedField(

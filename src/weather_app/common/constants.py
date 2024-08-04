@@ -1,0 +1,25 @@
+# Coordinates
+MIN_LATITUDE = -90.0
+MAX_LATITUDE = 90.0
+MIN_LONGITUDE = -180.0
+MAX_LONGITUDE = 180.0
+
+# Degrees Celsius
+MIN_TEMPERATURE = -100.0
+MAX_TEMPERATURE = 70.0
+
+# Percentage
+MIN_HUMIDITY = 0.0
+MAX_HUMIDITY = 100.0
+
+# mm
+MIN_PRECIPITATION = 0.0
+MAX_PRECIPITATION = 9999.0
+
+# Degrees clockwise from north where 0/360 is the wind from the north
+MIN_WIND_DIRECTION = 0.0
+MAX_WIND_DIRECTION = 360.0
+
+# m/s
+MIN_WIND_SPEED = 0.0
+MAX_WIND_SPEED = 200.0
