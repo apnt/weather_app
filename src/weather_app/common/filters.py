@@ -1,11 +1,12 @@
 import logging
+from abc import ABC
 
 from rest_framework.filters import BaseFilterBackend
 
 logger = logging.getLogger(__name__)
 
 
-class RangeFilter(BaseFilterBackend):
+class FloatRangeFilter(ABC, BaseFilterBackend):
     """
     Abstract filter class for filtering by range.
     Concrete classes need only to provide the filtering field and the query param.
@@ -29,7 +30,7 @@ class RangeFilter(BaseFilterBackend):
                 )
         except (ValueError, IndexError):
             logger.warning(
-                f"Badly formed {self.field} range: {range_query}."
+                f"Badly formed {self.field} range: {range_query}. "
                 f"Two comma-separated values must be provided."
             )
             return queryset.none()

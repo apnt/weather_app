@@ -1,11 +1,11 @@
-from weather_app.common.filters import RangeFilter
+from weather_app.common.filters import FloatRangeFilter
 
 
-class LatitudeRangeFilter(RangeFilter):
+class LatitudeRangeFilter(FloatRangeFilter):
     field = "latitude"
     query_param = "lat_range"
 
 
-class LongitudeRangeFilter(RangeFilter):
+class LongitudeRangeFilter(FloatRangeFilter):
     field = "longitude"
     query_param = "long_range"
