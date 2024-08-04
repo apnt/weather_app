@@ -21,7 +21,6 @@ from weather_app.stations.serializers import (
     retrieve=extend_schema(**api_schema.retrieve_station),
     create=extend_schema(**api_schema.create_station),
     partial_update=extend_schema(**api_schema.partial_update_station),
-    destroy=extend_schema(**api_schema.destroy_station),
 )
 class StationViewSet(
     GenericViewSet,

@@ -42,10 +42,12 @@ urlpatterns = [
         SpectacularRedocView.as_view(url_name="schema"),
         name="redoc",
     ),
-    # users urls
+    # Users urls
     path("api/v1/", include("weather_app.users.urls")),
-    # auth endpoints
+    # Auth endpoints
     path("api/v1/", include("weather_app.auth.urls")),
-    # stations endpoints
+    # Stations endpoints
     path("api/v1/", include("weather_app.stations.urls")),
+    # Measurements endpoints
+    path("api/v1/", include("weather_app.measurements.urls")),
 ]

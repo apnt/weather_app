@@ -48,4 +48,3 @@ list_stations = {
 retrieve_station = {"description": "Fetches the station with the given uuid."}
 create_station = {"responses": {201: StationSerializer}}
 partial_update_station = {"responses": {200: StationSerializer}}
-destroy_station = {}
