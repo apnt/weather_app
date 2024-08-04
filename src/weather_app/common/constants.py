@@ -23,3 +23,31 @@ MAX_WIND_DIRECTION = 360.0
 # m/s
 MIN_WIND_SPEED = 0.0
 MAX_WIND_SPEED = 200.0
+
+# Valid date input formats
+VALID_DATETIME_INPUT_FORMATS = [
+    "%Y-%m-%dT%H:%M:%S.%fZ",
+    "%d-%m-%YT%H:%M:%S.%fZ",
+    "%d-%m-%Y %H:%M:%S.%fZ",
+    "%d-%m-%YT%H:%M:%SZ",
+    "%d-%m-%Y %H:%M:%SZ",
+    "%d/%m/%YT%H:%M:%S.%fZ",
+    "%d/%m/%Y %H:%M:%S.%fZ",
+    "%d/%m/%YT%H:%M:%SZ",
+    "%d/%m/%Y %H:%M:%SZ",
+]
+
+VALID_DATE_INPUT_FORMATS = [
+    "%Y-%m-%dT%H:%M:%S.%fZ",
+    "%d-%m-%YT%H:%M:%S.%fZ",
+    "%d-%m-%Y %H:%M:%S.%fZ",
+    "%d-%m-%YT%H:%M:%SZ",
+    "%d-%m-%Y %H:%M:%SZ",
+    "%d/%m/%YT%H:%M:%S.%fZ",
+    "%d/%m/%Y %H:%M:%S.%fZ",
+    "%d/%m/%YT%H:%M:%SZ",
+    "%d/%m/%Y %H:%M:%SZ",
+    "%Y-%m-%d",
+    "%d-%m-%Y",
+    "%d/%m/%Y",
+]
