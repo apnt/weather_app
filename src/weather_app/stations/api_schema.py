@@ -24,8 +24,24 @@ list_stations = {
             description="A range (min-max) for filtering by latitude. The two float values must be comma-separated.",
         ),
         OpenApiParameter(
+            name="lat_lte",
+            description="Latitude filtering less than or equal to the given float value.",
+        ),
+        OpenApiParameter(
+            name="lat_gte",
+            description="Latitude filtering greater than or equal to the given float value.",
+        ),
+        OpenApiParameter(
             name="long_range",
             description="A range (min-max) for filtering by longitude. The two float values must be comma-separated.",
+        ),
+        OpenApiParameter(
+            name="long_lte",
+            description="Longitude filtering less than or equal to the given float value.",
+        ),
+        OpenApiParameter(
+            name="long_gte",
+            description="Longitude filtering greater than or equal to the given float value.",
         ),
     ],
 }

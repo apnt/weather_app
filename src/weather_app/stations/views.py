@@ -7,7 +7,7 @@ from weather_app.auth.authentications import JWTBearerAuthentication
 from weather_app.common.mixins import CustomCreateModelMixin, CustomUpdateModelMixin
 from weather_app.common.paginations import BasePagination
 from weather_app.stations import api_schema
-from weather_app.stations.filters import LatitudeRangeFilter, LongitudeRangeFilter
+from weather_app.stations import filters
 from weather_app.stations.models import Station
 from weather_app.stations.permissions import StationsPermissions
 from weather_app.stations.serializers import (
@@ -43,8 +43,12 @@ class StationViewSet(
     filter_backends = [
         SearchFilter,
         OrderingFilter,
-        LatitudeRangeFilter,
-        LongitudeRangeFilter,
+        filters.LatitudeRangeFilter,
+        filters.LatitudeLessThanFilter,
+        filters.LatitudeGreaterThanFilter,
+        filters.LongitudeRangeFilter,
+        filters.LongitudeLessThanFilter,
+        filters.LongitudeGreaterThanFilter,
     ]
     search_fields = ["name"]
     ordering_fields = ["date_created", "latitude", "longitude", "name"]
