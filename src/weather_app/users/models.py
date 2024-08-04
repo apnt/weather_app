@@ -22,6 +22,9 @@ class User(AbstractBaseUser, PermissionsMixin):
     # Set field used as username
     USERNAME_FIELD = "email"
 
+    def __str__(self):
+        return self.email
+
     @property
     def is_staff(self):
         return self.is_superuser
