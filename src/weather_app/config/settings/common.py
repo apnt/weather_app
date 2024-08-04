@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     "drf_spectacular",
     "weather_app.users.apps.UsersConfig",
     "weather_app.stations.apps.StationsConfig",
+    "weather_app.measurements.apps.MeasurementsConfig",
 ]
 
 MIDDLEWARE = [
