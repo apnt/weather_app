@@ -1,6 +1,8 @@
 from datetime import datetime
 from uuid import UUID
 
+import pytz
+
 from weather_app.common.constants import VALID_DATE_INPUT_FORMATS
 
 
@@ -20,6 +22,6 @@ def is_valid_uuid(uuid_to_test, version=4):
 def convert_str_to_datetime(datetime_str):
     for date_format in VALID_DATE_INPUT_FORMATS:
         try:
-            return datetime.strptime(datetime_str, date_format)
+            return datetime.strptime(datetime_str, date_format).replace(tzinfo=pytz.UTC)
         except ValueError:
             pass

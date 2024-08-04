@@ -6,6 +6,7 @@ from weather_app.common.filters import (
     FloatRangeFilter,
     SingleFloatFilter,
     DateRangeFilter,
+    SingleDateFilter,
 )
 from weather_app.common.utils import is_valid_uuid
 from weather_app.stations.models import Station
@@ -122,13 +123,13 @@ class DateCapturedRangeFilter(DateRangeFilter):
     query_param = "date_range"
 
 
-class DateCapturedBeforeFilter(DateRangeFilter):
+class DateCapturedBeforeFilter(SingleDateFilter):
     gte = False
     field = "date_captured"
     query_param = "date_lte"
 
 
-class DateCapturedAfterFilter(DateRangeFilter):
+class DateCapturedAfterFilter(SingleDateFilter):
     gte = True
     field = "date_captured"
     query_param = "date_gte"

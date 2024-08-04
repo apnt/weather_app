@@ -50,4 +50,7 @@ VALID_DATE_INPUT_FORMATS = [
     "%Y-%m-%d",
     "%d-%m-%Y",
     "%d/%m/%Y",
+    "%Y-%m-%d %H:%M:%S",
+    "%d-%m-%Y %H:%M:%S",
+    "%d/%m/%Y %H:%M:%S",
 ]

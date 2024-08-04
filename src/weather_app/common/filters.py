@@ -26,6 +26,8 @@ class RangeFilter(ABC, BaseFilterBackend):
 
         try:
             min_value, max_value = self.parse_query_values(range_query)
+            if min_value is None or max_value is None:
+                return queryset.none()
 
             if min_value > max_value:
                 logger.warning(
@@ -63,7 +65,7 @@ class DateRangeFilter(RangeFilter):
 
     def parse_query_values(self, query):
         start_date = convert_str_to_datetime(query.strip("[]()").split(",")[0])
-        end_date = convert_str_to_datetime(query.strip("[]()").split(",")[0])
+        end_date = convert_str_to_datetime(query.strip("[]()").split(",")[1])
         return start_date, end_date
 
 
@@ -86,12 +88,15 @@ class SingleValueFilter(ABC, BaseFilterBackend):
 
         try:
             value = self.parse_query_value(query)
+            if value is None:
+                return queryset.none()
+
         except (ValueError, IndexError):
             logger.warning(f"Badly formed {self.field} query: {query}. ")
             return queryset.none()
 
         filter_query = (
-            {f"{self.field}__gte": query} if self.gte else {f"{self.field}__lte": query}
+            {f"{self.field}__gte": value} if self.gte else {f"{self.field}__lte": value}
         )
         return queryset.filter(**filter_query)
 
