@@ -10,8 +10,8 @@ idea
 *.sqlite3
 
 # DB data
-data
-data/
+db
+db/
 
 # Virtual envs
 venv
