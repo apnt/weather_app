@@ -1,0 +1,4602 @@
+[
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 4,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 4,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 4,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 4,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 5,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 5,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 5,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 5,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 6,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 6,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 6,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 6,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add station",
+      "content_type": 7,
+      "codename": "add_station"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change station",
+      "content_type": 7,
+      "codename": "change_station"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete station",
+      "content_type": 7,
+      "codename": "delete_station"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view station",
+      "content_type": 7,
+      "codename": "view_station"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add measurement",
+      "content_type": 8,
+      "codename": "add_measurement"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change measurement",
+      "content_type": 8,
+      "codename": "change_measurement"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete measurement",
+      "content_type": 8,
+      "codename": "delete_measurement"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view measurement",
+      "content_type": 8,
+      "codename": "view_measurement"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "users",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "stations",
+      "model": "station"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "measurements",
+      "model": "measurement"
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$iSVTu7chexeTopTBQ1qHlr$pF8MVSVYm15Hm9hXBJClG5XFJa72p1yE/7x5Swnwkl8=",
+      "last_login": null,
+      "uuid": "fc433d73-c3f5-4dfc-a910-9c8111cc20bf",
+      "email": "admin@weatherapp.com",
+      "is_superuser": true,
+      "is_service_station": false,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:45.940Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$3337vlMiaGzC577UapHLbs$ZYTYGigVbf/vxkv5z0gii6sD6n9juFzp+RMoAoTo6Ag=",
+      "last_login": null,
+      "uuid": "98313462-8ad1-4d1e-9901-8cdfd64c759f",
+      "email": "station0@weatherapp.com",
+      "is_superuser": false,
+      "is_service_station": true,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:46.098Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$dE8lymHJ1nfx1aj4ryDk2Y$SR5+/dZnqfviae8pveA4bQA1dxg7aKqR523CGwhdnoY=",
+      "last_login": null,
+      "uuid": "22f93f9e-f645-44bc-875a-93fa2cf7190f",
+      "email": "station1@weatherapp.com",
+      "is_superuser": false,
+      "is_service_station": true,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:46.255Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$4JzKMyRwQfNeDv2eNeN0jU$oR/5ZM+/Y914PfqU2nnlsmTLe2bDQM/jo/wgEEUjfMw=",
+      "last_login": null,
+      "uuid": "3dd5d6c8-dfc9-4c0a-bbfd-548ff10d91b8",
+      "email": "station2@weatherapp.com",
+      "is_superuser": false,
+      "is_service_station": true,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:46.409Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$DygmUMM1QKYW7Sr1zLERTR$dgNxAfrIWy/9N4CP/CPilkOlu+OraDpHa0/bIv2WFHQ=",
+      "last_login": null,
+      "uuid": "1684a817-41d3-4297-9c86-1ef74c5cb085",
+      "email": "station3@weatherapp.com",
+      "is_superuser": false,
+      "is_service_station": true,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:46.566Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 6,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$c3fdXcuKUOO4cOCMxwbdBq$8f81afXNpEq3dPz58w8oFcNbSApq6iLbgcCFDg2DO0c=",
+      "last_login": null,
+      "uuid": "7bcd56ce-2e5e-42b0-9564-22c083816455",
+      "email": "station4@weatherapp.com",
+      "is_superuser": false,
+      "is_service_station": true,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:46.721Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 7,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$1WhLoSdwXvb5hpLg8OM0NS$muzKSxWHtFmLytRIi9KC6yjGUSLASD4f+TQWYm9kDTA=",
+      "last_login": null,
+      "uuid": "abb0f4f9-5fea-415b-8da5-b50d1d4bf25b",
+      "email": "station5@weatherapp.com",
+      "is_superuser": false,
+      "is_service_station": true,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:46.876Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 8,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$5ZkvR1Y1voct0DInnfdBd3$si8SBH0f47y+3N78xMqCGlxG+qavTgnjPz9cdjTKwv4=",
+      "last_login": null,
+      "uuid": "8b6d8b69-b8af-4211-b15a-fb99f7c58e5b",
+      "email": "station6@weatherapp.com",
+      "is_superuser": false,
+      "is_service_station": true,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:47.033Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 9,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$HZQpQzPX5Py22QBDmWwbDM$b4ZEQm6gp2jVQek+QQx0NnPBKOoUI1fmHMy5TK9mJmA=",
+      "last_login": null,
+      "uuid": "12e2a15c-0a62-475a-abb9-e27d7b303ab5",
+      "email": "station7@weatherapp.com",
+      "is_superuser": false,
+      "is_service_station": true,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:47.188Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 10,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$9DrnQGQy8k1Zu2t0p8bnar$hgXPGGrPVM6jODY3N/S8oJFbNG25OH4sJI0SqbbQKZU=",
+      "last_login": null,
+      "uuid": "19de13db-e275-441e-8601-ece1afdb9cc9",
+      "email": "station8@weatherapp.com",
+      "is_superuser": false,
+      "is_service_station": true,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:47.342Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 11,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$tMsjaysL7DlRG6gKWdlEux$FvwGEK62Aguv5qrh8DdFOfciQ40ku5n73BqyquIfLKM=",
+      "last_login": null,
+      "uuid": "28a13552-b7f0-4b8a-9d6d-e538d5126564",
+      "email": "station9@weatherapp.com",
+      "is_superuser": false,
+      "is_service_station": true,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:47.496Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 12,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$3YjY10zF7eLhVTE9vVk4C6$CmRulQkyX9tY6K7piziMupLiA+lnFuSs33KdrkEW9dk=",
+      "last_login": null,
+      "uuid": "996b39fc-e09a-4d05-a313-25cf9bc157a5",
+      "email": "user@test.com",
+      "is_superuser": false,
+      "is_service_station": false,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:47.650Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 13,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$RubJVpSEfZca1gABz6JGOd$Kl5VnvP36tsNs8+xTmlf7DOP0SNDFm5wkPY9bay9iTk=",
+      "last_login": null,
+      "uuid": "b232f8d3-6ce9-4f8f-a06c-cab399814163",
+      "email": "user0@test.com",
+      "is_superuser": false,
+      "is_service_station": false,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:47.804Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 14,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$ZodupJ9v3t1C4CjRHliSj4$UZTxCc+P+FsTTfMBhVCB28RA3JDCzLzy+fCGiJnob8k=",
+      "last_login": null,
+      "uuid": "8d56f40e-8af7-4edd-8c7a-23aa3602fa58",
+      "email": "user1@test.com",
+      "is_superuser": false,
+      "is_service_station": false,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:47.958Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 15,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$VySE2K2zH2fop9BmV3XOvg$Dheuh9RIju74NOIX88hcFYoiUxCEky2CQWPKvRz3zag=",
+      "last_login": null,
+      "uuid": "fc9b1db5-8ab0-48cb-bc99-7b35fbda379c",
+      "email": "user2@test.com",
+      "is_superuser": false,
+      "is_service_station": false,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:48.113Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 16,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$onjpNSij3u0qZ9Jk8fWuGB$PTV6ATFlqAkGfLCZOtlMBGjwkTwlQkMaQXa03Paj/Wk=",
+      "last_login": null,
+      "uuid": "838ab362-7ed2-4eb1-ae9a-b0f38cc423fe",
+      "email": "user3@test.com",
+      "is_superuser": false,
+      "is_service_station": false,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:48.267Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 17,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$UZLpMiUDxB8cdHaFfTeNhT$Mtb3qnL6NOJIy6eLQd4Dz9Ug1MBGrpk19ShCJIGdxfI=",
+      "last_login": null,
+      "uuid": "7ee3931d-3452-4b2a-a667-d26dc8606051",
+      "email": "user4@test.com",
+      "is_superuser": false,
+      "is_service_station": false,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:48.421Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 18,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$9EqYt1bfvXwLxZuJtGsyQQ$FN5hMVVnxDKEl4DDs/fZzJU8PWvMYICCs/FECSR1ZQg=",
+      "last_login": null,
+      "uuid": "0aa355ed-8a69-4e89-9847-7db31ddd00a8",
+      "email": "user5@test.com",
+      "is_superuser": false,
+      "is_service_station": false,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:48.575Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 19,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$7KG5X7zeoIw3wzViI0iWyK$c8WaPWUf3aMrCezqn2mXcr6LYiyrVRjvRqc5i+Un2Ek=",
+      "last_login": null,
+      "uuid": "dbb90f5c-b9f1-4dd1-8a06-0615a4106346",
+      "email": "user6@test.com",
+      "is_superuser": false,
+      "is_service_station": false,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:48.736Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 20,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$S2az2wguCrXllK76qvjUEe$LPM2XNT7aK92yJ9DtS3SG4DIqA/UvHNYMunXvtEdXek=",
+      "last_login": null,
+      "uuid": "1a19f654-e8b4-414b-bba8-63df6b583183",
+      "email": "user7@test.com",
+      "is_superuser": false,
+      "is_service_station": false,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:48.905Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 21,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$sUMFlAXn9nYvYuBmZKmvvo$hn6LHcq9UDi5JYaMHYyYVnQjTfNseFWJ+yn2zSQNabc=",
+      "last_login": null,
+      "uuid": "83442b12-b1f7-4ceb-8ef0-1b515e045da9",
+      "email": "user8@test.com",
+      "is_superuser": false,
+      "is_service_station": false,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:49.062Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 22,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$5IZHLnHRR5Ye6mRxzBGjBq$e3QmY6IeE9BabjCp1HGtXUxE21m5pGApEWnP4AXn81g=",
+      "last_login": null,
+      "uuid": "42e33331-2378-4cc2-8eed-500e8ea5ab6e",
+      "email": "user9@test.com",
+      "is_superuser": false,
+      "is_service_station": false,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:49.220Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 23,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$gJP73Z7dAKOrF4dysW6xv8$roE8aAOc+NztoLH1ZFH9k1iVi9s/l4gv/YR+UWfWMYA=",
+      "last_login": null,
+      "uuid": "fc66c375-6274-4b88-aefd-f13d33154e20",
+      "email": "user10@test.com",
+      "is_superuser": false,
+      "is_service_station": false,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:49.377Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 24,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$qpvoIG7AdTklks4OuvQaMA$wGIdRSInP/ekFqOQQsgOyo07TPmOPpZ9bsqXldqIIGM=",
+      "last_login": null,
+      "uuid": "eae4a453-18de-4409-b8f1-3a23c4bdd345",
+      "email": "user11@test.com",
+      "is_superuser": false,
+      "is_service_station": false,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:49.534Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 25,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$bGrmnwMbtdFPlfm3Xl4w4Z$IoABTbk5k3lYq9CdETmtDQJziWdsjHnFEmI+ds2or5w=",
+      "last_login": null,
+      "uuid": "4391643c-0214-4e45-9afa-188f5190ceea",
+      "email": "user12@test.com",
+      "is_superuser": false,
+      "is_service_station": false,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:49.691Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 26,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$8vN5jhOeCkJfTc63dyaA2J$BLF4dYQx5Ml+HTBUw91VntAtgbypEkWylkMj/7WTXoI=",
+      "last_login": null,
+      "uuid": "a1b911a5-a645-4edd-b00d-592cf3446695",
+      "email": "user13@test.com",
+      "is_superuser": false,
+      "is_service_station": false,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:49.848Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 27,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$eqd2i3z18CKGRevM8sIWCv$wc2QjvDcTMm4XpLRJinYvQK9CZ402eHA1vk7r2PVPFU=",
+      "last_login": null,
+      "uuid": "1a36c80a-553d-4614-96eb-49e23ab097d3",
+      "email": "user14@test.com",
+      "is_superuser": false,
+      "is_service_station": false,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:50.006Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 28,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$XZ1uWoSZIL5BKKcnW5Fkmz$c1qeAuRWg+QTCqz419xsKVvsOqcybj2U3XMziUge8MQ=",
+      "last_login": null,
+      "uuid": "5be74b2a-8512-497e-af2b-35589b39139a",
+      "email": "user15@test.com",
+      "is_superuser": false,
+      "is_service_station": false,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:50.163Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 29,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$V5PxOriFCBQoBUyl74ftG7$54cDHdh7gT9CQnYkuLvOIZWHsE9dLvFaRNSg7bIqLDk=",
+      "last_login": null,
+      "uuid": "e3c9d49a-a8ba-4ef7-8c02-72c695b6e738",
+      "email": "user16@test.com",
+      "is_superuser": false,
+      "is_service_station": false,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:50.320Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 30,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$4k5s9iMrPUaz5f7SRDtwkT$PNKTis7WS8Ud4Xbv1Vt72m+RSOKNUOgS2+2lngJcqRg=",
+      "last_login": null,
+      "uuid": "ea332a74-deaf-4470-aefa-0679c86a33e7",
+      "email": "user17@test.com",
+      "is_superuser": false,
+      "is_service_station": false,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:50.478Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 31,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$v47jBhJB1hfWgK3q03iMXu$CJZiDUsbL18s17wAnQCtkVhjpIxOGpRNIYCs/OsQ1B4=",
+      "last_login": null,
+      "uuid": "061219d6-1dba-456b-a335-9bae14569817",
+      "email": "user18@test.com",
+      "is_superuser": false,
+      "is_service_station": false,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:50.634Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 32,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$GnjIT60mAlEWmP0hBk0RLm$Hpk8xB57hPYSIJDD4KY+xzfIFHxsnvKlsoRNEcn5Eho=",
+      "last_login": null,
+      "uuid": "3b1ae566-78f9-4f7c-9e87-3a95339c2213",
+      "email": "user19@test.com",
+      "is_superuser": false,
+      "is_service_station": false,
+      "is_active": true,
+      "date_joined": "2024-07-31T18:56:50.791Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 33,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$TcmdrvEsyUwdTeT9cU3b1b$KW5kx2w2zk38lno1CgOCXY4qc0s0RIRgQ6+zD/tNsTM=",
+      "last_login": null,
+      "uuid": "dd478d01-be0b-421d-bb5e-5b2970c013ba",
+      "email": "test_station@weatherapp.com",
+      "is_superuser": false,
+      "is_service_station": true,
+      "is_active": true,
+      "date_joined": "2024-08-02T19:27:04.326Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 1,
+    "fields": {
+      "user": 2,
+      "uuid": "7bcb4778-244f-4fbe-946b-565eb8cb2a2d",
+      "name": "Athens station",
+      "latitude": "37.979450",
+      "longitude": "23.716220",
+      "date_created": "2024-08-02T19:10:34.533Z"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 2,
+    "fields": {
+      "user": 3,
+      "uuid": "44bebc5d-721c-4a2f-86e1-3c20dd1a2314",
+      "name": "Thessaloniki station",
+      "latitude": "40.643610",
+      "longitude": "22.930860",
+      "date_created": "2024-08-02T19:10:34.535Z"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 3,
+    "fields": {
+      "user": 4,
+      "uuid": "2fa5eda7-a093-44de-b886-14949f49fa97",
+      "name": "Heraklion station",
+      "latitude": "35.327870",
+      "longitude": "25.143410",
+      "date_created": "2024-08-02T19:10:34.536Z"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 4,
+    "fields": {
+      "user": 5,
+      "uuid": "9188085f-21cb-4df1-9af4-d9317734523e",
+      "name": "Larissa station",
+      "latitude": "39.636890",
+      "longitude": "22.417610",
+      "date_created": "2024-08-02T19:10:34.537Z"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 5,
+    "fields": {
+      "user": 6,
+      "uuid": "7abcaf2e-9a19-4d68-89f3-0a0bf5ba76be",
+      "name": "Patras station",
+      "latitude": "38.244440",
+      "longitude": "21.734440",
+      "date_created": "2024-08-02T19:10:34.538Z"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 6,
+    "fields": {
+      "user": 7,
+      "uuid": "048175ea-a954-420f-9d36-ec1884a1256c",
+      "name": "Ioannina station",
+      "latitude": "39.664860",
+      "longitude": "20.851890",
+      "date_created": "2024-08-02T19:10:34.540Z"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 7,
+    "fields": {
+      "user": 8,
+      "uuid": "33e40516-756f-49b8-91f4-1cee87fbdc1b",
+      "name": "Alexandroupoli station",
+      "latitude": "40.849950",
+      "longitude": "25.876440",
+      "date_created": "2024-08-02T19:10:34.541Z"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 8,
+    "fields": {
+      "user": 9,
+      "uuid": "97e8a174-b04e-45ef-a479-fef4c6bce778",
+      "name": "Serres station",
+      "latitude": "41.084990",
+      "longitude": "23.547570",
+      "date_created": "2024-08-02T19:10:34.542Z"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 9,
+    "fields": {
+      "user": 10,
+      "uuid": "9260eb59-9e76-4edc-a0ef-26648c70ea67",
+      "name": "Rhodes station",
+      "latitude": "36.440830",
+      "longitude": "28.222500",
+      "date_created": "2024-08-02T19:10:34.543Z"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 10,
+    "fields": {
+      "user": 11,
+      "uuid": "ee0ded58-4220-4d76-9288-0cf20b3ca38b",
+      "name": "Trikala station",
+      "latitude": "39.554930",
+      "longitude": "21.768370",
+      "date_created": "2024-08-02T19:10:34.544Z"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 1,
+    "fields": {
+      "uuid": "43c99e56-6d1f-4653-bcca-9e302b4fffe7",
+      "date_captured": "2024-05-03T00:00:00.819Z",
+      "date_registered": "2024-08-03T18:01:01.990Z",
+      "station": 7,
+      "temperature": "16.58",
+      "humidity": "36.24",
+      "precipitation": "2.6",
+      "wind_direction": "32.55",
+      "wind_speed": "10.62"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 2,
+    "fields": {
+      "uuid": "08739530-82b5-4cc2-ba7e-83e26d00461c",
+      "date_captured": "2024-05-03T01:00:00.339Z",
+      "date_registered": "2024-08-03T18:01:01.994Z",
+      "station": 7,
+      "temperature": "16.04",
+      "humidity": "38.17",
+      "precipitation": "2.6",
+      "wind_direction": "30.15",
+      "wind_speed": "7.52"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 3,
+    "fields": {
+      "uuid": "6b381d22-8384-4694-adb9-cdb709a4d7a1",
+      "date_captured": "2024-05-03T02:00:00.148Z",
+      "date_registered": "2024-08-03T18:01:01.995Z",
+      "station": 7,
+      "temperature": "15.66",
+      "humidity": "48.75",
+      "precipitation": "0.4",
+      "wind_direction": "33.13",
+      "wind_speed": "6.14"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 4,
+    "fields": {
+      "uuid": "2bc485c7-4636-409b-af40-ece1700c9fe5",
+      "date_captured": "2024-05-03T03:00:00.167Z",
+      "date_registered": "2024-08-03T18:01:01.996Z",
+      "station": 7,
+      "temperature": "16.11",
+      "humidity": "38.10",
+      "precipitation": "1.1",
+      "wind_direction": "33.66",
+      "wind_speed": "10.81"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 5,
+    "fields": {
+      "uuid": "fad49b02-f5fa-48b2-9627-3782cea33a01",
+      "date_captured": "2024-05-03T04:00:00.643Z",
+      "date_registered": "2024-08-03T18:01:01.997Z",
+      "station": 7,
+      "temperature": "16.70",
+      "humidity": "50.81",
+      "precipitation": "2.2",
+      "wind_direction": "38.69",
+      "wind_speed": "5.56"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 6,
+    "fields": {
+      "uuid": "5c156980-e7f7-4329-a4c6-0a89d57f91e2",
+      "date_captured": "2024-05-03T05:00:00.866Z",
+      "date_registered": "2024-08-03T18:01:01.998Z",
+      "station": 7,
+      "temperature": "16.64",
+      "humidity": "31.31",
+      "precipitation": "0.9",
+      "wind_direction": "35.68",
+      "wind_speed": "8.93"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 7,
+    "fields": {
+      "uuid": "8bfeda1d-6701-4522-a9b6-1d971c043b7d",
+      "date_captured": "2024-05-03T06:00:00.369Z",
+      "date_registered": "2024-08-03T18:01:01.999Z",
+      "station": 7,
+      "temperature": "18.33",
+      "humidity": "48.68",
+      "precipitation": "2.6",
+      "wind_direction": "35.70",
+      "wind_speed": "9.20"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 8,
+    "fields": {
+      "uuid": "d04fcff4-aea5-4851-9535-8b20f474b981",
+      "date_captured": "2024-05-03T07:00:00.904Z",
+      "date_registered": "2024-08-03T18:01:02.000Z",
+      "station": 7,
+      "temperature": "21.51",
+      "humidity": "41.87",
+      "precipitation": "0.4",
+      "wind_direction": "30.40",
+      "wind_speed": "7.71"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 9,
+    "fields": {
+      "uuid": "4d780937-011b-41a0-84e6-4a7b8e9663c5",
+      "date_captured": "2024-05-03T08:00:00.346Z",
+      "date_registered": "2024-08-03T18:01:02.001Z",
+      "station": 7,
+      "temperature": "22.33",
+      "humidity": "30.20",
+      "precipitation": "1.2",
+      "wind_direction": "32.34",
+      "wind_speed": "10.97"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 10,
+    "fields": {
+      "uuid": "4018b47a-0a4f-4616-a7c1-d12b87f1bdcf",
+      "date_captured": "2024-05-03T09:00:00.548Z",
+      "date_registered": "2024-08-03T18:01:02.002Z",
+      "station": 7,
+      "temperature": "22.22",
+      "humidity": "44.00",
+      "precipitation": "3.5",
+      "wind_direction": "38.63",
+      "wind_speed": "5.31"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 11,
+    "fields": {
+      "uuid": "a278923d-819d-4922-8d35-306770132432",
+      "date_captured": "2024-05-03T10:00:00.051Z",
+      "date_registered": "2024-08-03T18:01:02.003Z",
+      "station": 7,
+      "temperature": "21.33",
+      "humidity": "48.34",
+      "precipitation": "1.4",
+      "wind_direction": "36.29",
+      "wind_speed": "11.70"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 12,
+    "fields": {
+      "uuid": "fd5bbc42-676e-4645-92b6-6653b600c1ae",
+      "date_captured": "2024-05-03T11:00:00.561Z",
+      "date_registered": "2024-08-03T18:01:02.004Z",
+      "station": 7,
+      "temperature": "23.73",
+      "humidity": "48.76",
+      "precipitation": "1.9",
+      "wind_direction": "31.80",
+      "wind_speed": "8.24"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 13,
+    "fields": {
+      "uuid": "250cc5b1-496d-4395-92b5-801b9456fe50",
+      "date_captured": "2024-05-03T12:00:00.192Z",
+      "date_registered": "2024-08-03T18:01:02.005Z",
+      "station": 7,
+      "temperature": "24.19",
+      "humidity": "37.70",
+      "precipitation": "3.8",
+      "wind_direction": "33.73",
+      "wind_speed": "9.80"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 14,
+    "fields": {
+      "uuid": "a8b2ec93-9863-454e-8952-35eabd67dc00",
+      "date_captured": "2024-05-03T13:00:00.282Z",
+      "date_registered": "2024-08-03T18:01:02.006Z",
+      "station": 7,
+      "temperature": "22.94",
+      "humidity": "46.23",
+      "precipitation": "2.7",
+      "wind_direction": "37.54",
+      "wind_speed": "9.54"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 15,
+    "fields": {
+      "uuid": "a53c435b-a784-4057-9139-ed900c477219",
+      "date_captured": "2024-05-03T14:00:00.484Z",
+      "date_registered": "2024-08-03T18:01:02.007Z",
+      "station": 7,
+      "temperature": "23.72",
+      "humidity": "42.71",
+      "precipitation": "2.0",
+      "wind_direction": "34.21",
+      "wind_speed": "10.20"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 16,
+    "fields": {
+      "uuid": "cc74c79d-c884-41b5-b08d-f31b764146df",
+      "date_captured": "2024-05-03T15:00:00.774Z",
+      "date_registered": "2024-08-03T18:01:02.008Z",
+      "station": 7,
+      "temperature": "22.93",
+      "humidity": "38.17",
+      "precipitation": "2.3",
+      "wind_direction": "37.60",
+      "wind_speed": "10.25"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 17,
+    "fields": {
+      "uuid": "8c9d8134-0c39-4ce9-8272-bd6a9f73abd6",
+      "date_captured": "2024-05-03T16:00:00.046Z",
+      "date_registered": "2024-08-03T18:01:02.009Z",
+      "station": 7,
+      "temperature": "23.67",
+      "humidity": "47.87",
+      "precipitation": "0.8",
+      "wind_direction": "36.80",
+      "wind_speed": "10.17"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 18,
+    "fields": {
+      "uuid": "f42517de-71f2-4633-b833-95544f7bcb2e",
+      "date_captured": "2024-05-03T17:00:00.909Z",
+      "date_registered": "2024-08-03T18:01:02.011Z",
+      "station": 7,
+      "temperature": "24.56",
+      "humidity": "41.44",
+      "precipitation": "2.7",
+      "wind_direction": "31.90",
+      "wind_speed": "9.31"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 19,
+    "fields": {
+      "uuid": "76a1d4be-ad56-4ea6-a36e-0cbbc784c17b",
+      "date_captured": "2024-05-03T18:00:00.001Z",
+      "date_registered": "2024-08-03T18:01:02.012Z",
+      "station": 7,
+      "temperature": "25.64",
+      "humidity": "45.45",
+      "precipitation": "1.1",
+      "wind_direction": "30.90",
+      "wind_speed": "9.24"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 20,
+    "fields": {
+      "uuid": "9c601156-4eca-43ea-acac-22af64598b45",
+      "date_captured": "2024-05-03T19:00:00.795Z",
+      "date_registered": "2024-08-03T18:01:02.013Z",
+      "station": 7,
+      "temperature": "26.65",
+      "humidity": "47.10",
+      "precipitation": "3.7",
+      "wind_direction": "31.00",
+      "wind_speed": "6.24"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 21,
+    "fields": {
+      "uuid": "850d8a8a-fe54-4b97-a0dd-eb56f757eaef",
+      "date_captured": "2024-05-03T20:00:00.790Z",
+      "date_registered": "2024-08-03T18:01:02.014Z",
+      "station": 7,
+      "temperature": "26.23",
+      "humidity": "50.41",
+      "precipitation": "2.9",
+      "wind_direction": "33.40",
+      "wind_speed": "6.82"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 22,
+    "fields": {
+      "uuid": "8491a155-cd23-4a8b-8322-a67f52c77720",
+      "date_captured": "2024-05-03T21:00:00.572Z",
+      "date_registered": "2024-08-03T18:01:02.015Z",
+      "station": 7,
+      "temperature": "26.30",
+      "humidity": "41.11",
+      "precipitation": "0.4",
+      "wind_direction": "37.17",
+      "wind_speed": "5.75"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 23,
+    "fields": {
+      "uuid": "65efc638-e4c0-4205-8634-d546256c941c",
+      "date_captured": "2024-05-03T22:00:00.633Z",
+      "date_registered": "2024-08-03T18:01:02.016Z",
+      "station": 7,
+      "temperature": "15.57",
+      "humidity": "31.10",
+      "precipitation": "4.0",
+      "wind_direction": "30.68",
+      "wind_speed": "9.80"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 24,
+    "fields": {
+      "uuid": "770e29ee-52b0-4388-8d02-e80b98e6c9cf",
+      "date_captured": "2024-05-03T23:00:00.102Z",
+      "date_registered": "2024-08-03T18:01:02.017Z",
+      "station": 7,
+      "temperature": "15.57",
+      "humidity": "46.43",
+      "precipitation": "2.0",
+      "wind_direction": "30.57",
+      "wind_speed": "8.25"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 25,
+    "fields": {
+      "uuid": "70d17458-7cc6-4782-ad3f-915cde27348f",
+      "date_captured": "2024-05-03T00:00:00.840Z",
+      "date_registered": "2024-08-03T18:01:02.019Z",
+      "station": 1,
+      "temperature": "19.77",
+      "humidity": "45.26",
+      "precipitation": "3.2",
+      "wind_direction": "32.66",
+      "wind_speed": "6.33"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 26,
+    "fields": {
+      "uuid": "c09efdf4-3dd9-4841-b25d-edb4f024a5c1",
+      "date_captured": "2024-05-03T01:00:00.380Z",
+      "date_registered": "2024-08-03T18:01:02.020Z",
+      "station": 1,
+      "temperature": "18.07",
+      "humidity": "50.43",
+      "precipitation": "3.4",
+      "wind_direction": "31.64",
+      "wind_speed": "9.43"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 27,
+    "fields": {
+      "uuid": "f72b06d0-c45f-4e95-9516-14b533ac765b",
+      "date_captured": "2024-05-03T02:00:00.302Z",
+      "date_registered": "2024-08-03T18:01:02.021Z",
+      "station": 1,
+      "temperature": "18.80",
+      "humidity": "49.50",
+      "precipitation": "3.6",
+      "wind_direction": "30.53",
+      "wind_speed": "12.20"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 28,
+    "fields": {
+      "uuid": "b2b0d5bd-87c9-407d-b57d-f88f4724df09",
+      "date_captured": "2024-05-03T03:00:00.590Z",
+      "date_registered": "2024-08-03T18:01:02.022Z",
+      "station": 1,
+      "temperature": "17.15",
+      "humidity": "32.39",
+      "precipitation": "1.8",
+      "wind_direction": "30.93",
+      "wind_speed": "6.30"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 29,
+    "fields": {
+      "uuid": "05ca341f-26b7-4b53-a410-6c2c17a3f17a",
+      "date_captured": "2024-05-03T04:00:00.835Z",
+      "date_registered": "2024-08-03T18:01:02.023Z",
+      "station": 1,
+      "temperature": "17.55",
+      "humidity": "42.12",
+      "precipitation": "1.7",
+      "wind_direction": "30.41",
+      "wind_speed": "11.78"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 30,
+    "fields": {
+      "uuid": "62501dea-dd17-4a27-98eb-cbb5e89ae8fe",
+      "date_captured": "2024-05-03T05:00:00.869Z",
+      "date_registered": "2024-08-03T18:01:02.024Z",
+      "station": 1,
+      "temperature": "17.16",
+      "humidity": "44.81",
+      "precipitation": "1.2",
+      "wind_direction": "34.15",
+      "wind_speed": "7.50"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 31,
+    "fields": {
+      "uuid": "da88491d-e9fb-4662-92f9-a1c7adcd12a6",
+      "date_captured": "2024-05-03T06:00:00.789Z",
+      "date_registered": "2024-08-03T18:01:02.025Z",
+      "station": 1,
+      "temperature": "17.18",
+      "humidity": "37.20",
+      "precipitation": "1.4",
+      "wind_direction": "37.57",
+      "wind_speed": "8.88"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 32,
+    "fields": {
+      "uuid": "3041dc71-fa1c-47b8-ab1d-5e94bd7cd557",
+      "date_captured": "2024-05-03T07:00:00.442Z",
+      "date_registered": "2024-08-03T18:01:02.026Z",
+      "station": 1,
+      "temperature": "21.42",
+      "humidity": "45.74",
+      "precipitation": "0.2",
+      "wind_direction": "32.29",
+      "wind_speed": "12.57"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 33,
+    "fields": {
+      "uuid": "4fcb714e-a250-42ed-b519-fa2848e137d7",
+      "date_captured": "2024-05-03T08:00:00.176Z",
+      "date_registered": "2024-08-03T18:01:02.027Z",
+      "station": 1,
+      "temperature": "21.46",
+      "humidity": "37.92",
+      "precipitation": "0.6",
+      "wind_direction": "30.67",
+      "wind_speed": "12.74"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 34,
+    "fields": {
+      "uuid": "359adf28-8b0a-4530-8cb2-7349d8221a73",
+      "date_captured": "2024-05-03T09:00:00.447Z",
+      "date_registered": "2024-08-03T18:01:02.028Z",
+      "station": 1,
+      "temperature": "22.40",
+      "humidity": "48.23",
+      "precipitation": "0.6",
+      "wind_direction": "32.73",
+      "wind_speed": "11.85"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 35,
+    "fields": {
+      "uuid": "058c3de1-b6a3-4aee-ae40-e9d54695c613",
+      "date_captured": "2024-05-03T10:00:00.910Z",
+      "date_registered": "2024-08-03T18:01:02.029Z",
+      "station": 1,
+      "temperature": "21.96",
+      "humidity": "30.18",
+      "precipitation": "2.7",
+      "wind_direction": "38.35",
+      "wind_speed": "8.80"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 36,
+    "fields": {
+      "uuid": "7329dc76-33e7-4d1a-9363-64e8627c4d3e",
+      "date_captured": "2024-05-03T11:00:00.292Z",
+      "date_registered": "2024-08-03T18:01:02.030Z",
+      "station": 1,
+      "temperature": "25.00",
+      "humidity": "43.47",
+      "precipitation": "2.6",
+      "wind_direction": "32.68",
+      "wind_speed": "8.56"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 37,
+    "fields": {
+      "uuid": "a1b17684-b30d-41f6-9d98-4f808e656eed",
+      "date_captured": "2024-05-03T12:00:00.778Z",
+      "date_registered": "2024-08-03T18:01:02.031Z",
+      "station": 1,
+      "temperature": "26.40",
+      "humidity": "44.53",
+      "precipitation": "2.8",
+      "wind_direction": "30.99",
+      "wind_speed": "6.73"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 38,
+    "fields": {
+      "uuid": "230cee18-b4d2-4766-b2d8-92eb267400b1",
+      "date_captured": "2024-05-03T13:00:00.344Z",
+      "date_registered": "2024-08-03T18:01:02.032Z",
+      "station": 1,
+      "temperature": "21.97",
+      "humidity": "50.51",
+      "precipitation": "3.9",
+      "wind_direction": "36.92",
+      "wind_speed": "8.84"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 39,
+    "fields": {
+      "uuid": "21f409c2-fa8a-4ebe-b0dd-6f82f615eaf7",
+      "date_captured": "2024-05-03T14:00:00.067Z",
+      "date_registered": "2024-08-03T18:01:02.033Z",
+      "station": 1,
+      "temperature": "26.85",
+      "humidity": "34.60",
+      "precipitation": "3.4",
+      "wind_direction": "30.65",
+      "wind_speed": "11.91"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 40,
+    "fields": {
+      "uuid": "5f412d86-8136-4f6e-bd5e-b797998e1a9e",
+      "date_captured": "2024-05-03T15:00:00.006Z",
+      "date_registered": "2024-08-03T18:01:02.034Z",
+      "station": 1,
+      "temperature": "22.48",
+      "humidity": "43.65",
+      "precipitation": "3.9",
+      "wind_direction": "32.61",
+      "wind_speed": "5.99"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 41,
+    "fields": {
+      "uuid": "94e7d6d6-040e-4bbd-81e0-6dcb7fe0dd00",
+      "date_captured": "2024-05-03T16:00:00.350Z",
+      "date_registered": "2024-08-03T18:01:02.035Z",
+      "station": 1,
+      "temperature": "26.62",
+      "humidity": "35.85",
+      "precipitation": "0.5",
+      "wind_direction": "31.22",
+      "wind_speed": "12.58"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 42,
+    "fields": {
+      "uuid": "7a6efc6c-7844-473d-af02-57d7908bac85",
+      "date_captured": "2024-05-03T17:00:00.774Z",
+      "date_registered": "2024-08-03T18:01:02.036Z",
+      "station": 1,
+      "temperature": "23.38",
+      "humidity": "32.53",
+      "precipitation": "0.3",
+      "wind_direction": "30.80",
+      "wind_speed": "7.46"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 43,
+    "fields": {
+      "uuid": "5e4c9081-a8fc-4e26-a108-652680db085e",
+      "date_captured": "2024-05-03T18:00:00.159Z",
+      "date_registered": "2024-08-03T18:01:02.037Z",
+      "station": 1,
+      "temperature": "21.11",
+      "humidity": "31.82",
+      "precipitation": "0.8",
+      "wind_direction": "32.78",
+      "wind_speed": "12.60"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 44,
+    "fields": {
+      "uuid": "aed6df48-7540-4db2-bd0a-ff5ef18e77b5",
+      "date_captured": "2024-05-03T19:00:00.369Z",
+      "date_registered": "2024-08-03T18:01:02.038Z",
+      "station": 1,
+      "temperature": "22.44",
+      "humidity": "42.51",
+      "precipitation": "3.8",
+      "wind_direction": "32.60",
+      "wind_speed": "7.36"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 45,
+    "fields": {
+      "uuid": "85b6454f-48b3-4533-8b31-47132977f00b",
+      "date_captured": "2024-05-03T20:00:00.867Z",
+      "date_registered": "2024-08-03T18:01:02.039Z",
+      "station": 1,
+      "temperature": "21.52",
+      "humidity": "43.74",
+      "precipitation": "1.0",
+      "wind_direction": "33.98",
+      "wind_speed": "10.11"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 46,
+    "fields": {
+      "uuid": "4a06c93a-a9e3-4308-b257-36ac38c12907",
+      "date_captured": "2024-05-03T21:00:00.653Z",
+      "date_registered": "2024-08-03T18:01:02.040Z",
+      "station": 1,
+      "temperature": "24.46",
+      "humidity": "38.85",
+      "precipitation": "0.1",
+      "wind_direction": "38.90",
+      "wind_speed": "12.40"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 47,
+    "fields": {
+      "uuid": "d49250c4-f003-4dcc-8309-f064016e1cbf",
+      "date_captured": "2024-05-03T22:00:00.734Z",
+      "date_registered": "2024-08-03T18:01:02.041Z",
+      "station": 1,
+      "temperature": "15.85",
+      "humidity": "31.24",
+      "precipitation": "0.7",
+      "wind_direction": "35.90",
+      "wind_speed": "5.50"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 48,
+    "fields": {
+      "uuid": "63a7ae78-9b8c-4a14-8dfa-96e5ebd51d5d",
+      "date_captured": "2024-05-03T23:00:00.098Z",
+      "date_registered": "2024-08-03T18:01:02.042Z",
+      "station": 1,
+      "temperature": "15.18",
+      "humidity": "34.79",
+      "precipitation": "3.7",
+      "wind_direction": "33.67",
+      "wind_speed": "5.10"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 49,
+    "fields": {
+      "uuid": "f1c4a6dc-36cc-4592-b10e-7d2acd9a6de2",
+      "date_captured": "2024-05-03T00:00:00.132Z",
+      "date_registered": "2024-08-03T18:01:02.043Z",
+      "station": 3,
+      "temperature": "15.68",
+      "humidity": "41.20",
+      "precipitation": "2.3",
+      "wind_direction": "37.79",
+      "wind_speed": "6.44"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 50,
+    "fields": {
+      "uuid": "65c2d5e1-3bd1-486b-90d9-2ed2f515f55e",
+      "date_captured": "2024-05-03T01:00:00.504Z",
+      "date_registered": "2024-08-03T18:01:02.044Z",
+      "station": 3,
+      "temperature": "17.56",
+      "humidity": "47.18",
+      "precipitation": "0.9",
+      "wind_direction": "36.61",
+      "wind_speed": "11.18"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 51,
+    "fields": {
+      "uuid": "e90605ba-dc67-4d3e-be0d-e3aded0b63d0",
+      "date_captured": "2024-05-03T02:00:00.736Z",
+      "date_registered": "2024-08-03T18:01:02.045Z",
+      "station": 3,
+      "temperature": "17.12",
+      "humidity": "47.21",
+      "precipitation": "2.3",
+      "wind_direction": "38.15",
+      "wind_speed": "12.32"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 52,
+    "fields": {
+      "uuid": "dd48e0de-e649-4b96-ba00-195904ce27da",
+      "date_captured": "2024-05-03T03:00:00.273Z",
+      "date_registered": "2024-08-03T18:01:02.046Z",
+      "station": 3,
+      "temperature": "15.71",
+      "humidity": "47.89",
+      "precipitation": "2.9",
+      "wind_direction": "35.50",
+      "wind_speed": "11.25"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 53,
+    "fields": {
+      "uuid": "24cdcd76-915d-458f-ae4d-40e62bb00cb3",
+      "date_captured": "2024-05-03T04:00:00.200Z",
+      "date_registered": "2024-08-03T18:01:02.047Z",
+      "station": 3,
+      "temperature": "17.40",
+      "humidity": "47.30",
+      "precipitation": "2.5",
+      "wind_direction": "37.96",
+      "wind_speed": "12.50"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 54,
+    "fields": {
+      "uuid": "eddf6674-9d3b-4bfa-b4c9-0cbc5b453afb",
+      "date_captured": "2024-05-03T05:00:00.557Z",
+      "date_registered": "2024-08-03T18:01:02.048Z",
+      "station": 3,
+      "temperature": "16.48",
+      "humidity": "46.75",
+      "precipitation": "1.9",
+      "wind_direction": "31.30",
+      "wind_speed": "12.58"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 55,
+    "fields": {
+      "uuid": "79941a1e-1cf3-48a1-a25b-b4ccdc9b2e5a",
+      "date_captured": "2024-05-03T06:00:00.987Z",
+      "date_registered": "2024-08-03T18:01:02.049Z",
+      "station": 3,
+      "temperature": "15.19",
+      "humidity": "40.76",
+      "precipitation": "2.6",
+      "wind_direction": "35.75",
+      "wind_speed": "8.59"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 56,
+    "fields": {
+      "uuid": "d8be432b-1a16-4f9e-8cd6-96c4cd517c92",
+      "date_captured": "2024-05-03T07:00:00.579Z",
+      "date_registered": "2024-08-03T18:01:02.050Z",
+      "station": 3,
+      "temperature": "24.25",
+      "humidity": "39.77",
+      "precipitation": "2.4",
+      "wind_direction": "38.35",
+      "wind_speed": "12.50"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 57,
+    "fields": {
+      "uuid": "9791cdcd-1a6e-4d21-8e04-fd9ec7ba3cf8",
+      "date_captured": "2024-05-03T08:00:00.813Z",
+      "date_registered": "2024-08-03T18:01:02.051Z",
+      "station": 3,
+      "temperature": "26.46",
+      "humidity": "39.60",
+      "precipitation": "0.3",
+      "wind_direction": "36.96",
+      "wind_speed": "10.00"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 58,
+    "fields": {
+      "uuid": "8dd65552-63c5-451a-83ee-3589d787d0bd",
+      "date_captured": "2024-05-03T09:00:00.877Z",
+      "date_registered": "2024-08-03T18:01:02.052Z",
+      "station": 3,
+      "temperature": "26.37",
+      "humidity": "34.50",
+      "precipitation": "0.1",
+      "wind_direction": "38.69",
+      "wind_speed": "11.22"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 59,
+    "fields": {
+      "uuid": "ba4df58a-12e3-4c6c-8bc1-0437929eb1a7",
+      "date_captured": "2024-05-03T10:00:00.850Z",
+      "date_registered": "2024-08-03T18:01:02.053Z",
+      "station": 3,
+      "temperature": "26.74",
+      "humidity": "38.36",
+      "precipitation": "0.4",
+      "wind_direction": "33.83",
+      "wind_speed": "7.65"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 60,
+    "fields": {
+      "uuid": "ecc6885f-2013-49e4-9ed2-1f4e2b25bda2",
+      "date_captured": "2024-05-03T11:00:00.056Z",
+      "date_registered": "2024-08-03T18:01:02.054Z",
+      "station": 3,
+      "temperature": "23.00",
+      "humidity": "43.28",
+      "precipitation": "3.7",
+      "wind_direction": "35.53",
+      "wind_speed": "11.11"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 61,
+    "fields": {
+      "uuid": "6a905fd6-83d8-4e55-b4a0-dff74afe85a9",
+      "date_captured": "2024-05-03T12:00:00.680Z",
+      "date_registered": "2024-08-03T18:01:02.056Z",
+      "station": 3,
+      "temperature": "26.84",
+      "humidity": "31.23",
+      "precipitation": "0.6",
+      "wind_direction": "32.50",
+      "wind_speed": "10.46"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 62,
+    "fields": {
+      "uuid": "c30db291-8fb5-42b8-b779-1bc44311268d",
+      "date_captured": "2024-05-03T13:00:00.559Z",
+      "date_registered": "2024-08-03T18:01:02.057Z",
+      "station": 3,
+      "temperature": "23.99",
+      "humidity": "41.87",
+      "precipitation": "3.7",
+      "wind_direction": "35.44",
+      "wind_speed": "6.58"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 63,
+    "fields": {
+      "uuid": "8901da64-c3d6-4691-9b56-4d3ccad322e5",
+      "date_captured": "2024-05-03T14:00:00.361Z",
+      "date_registered": "2024-08-03T18:01:02.058Z",
+      "station": 3,
+      "temperature": "21.72",
+      "humidity": "50.33",
+      "precipitation": "1.6",
+      "wind_direction": "30.70",
+      "wind_speed": "5.37"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 64,
+    "fields": {
+      "uuid": "2173c21b-419f-439d-a59e-76e561eecbc0",
+      "date_captured": "2024-05-03T15:00:00.211Z",
+      "date_registered": "2024-08-03T18:01:02.059Z",
+      "station": 3,
+      "temperature": "21.25",
+      "humidity": "41.19",
+      "precipitation": "0.4",
+      "wind_direction": "35.30",
+      "wind_speed": "12.42"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 65,
+    "fields": {
+      "uuid": "635ce2a2-5fbc-4c9f-a563-a159a3cc0c4c",
+      "date_captured": "2024-05-03T16:00:00.337Z",
+      "date_registered": "2024-08-03T18:01:02.060Z",
+      "station": 3,
+      "temperature": "23.90",
+      "humidity": "43.19",
+      "precipitation": "0.6",
+      "wind_direction": "37.80",
+      "wind_speed": "5.31"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 66,
+    "fields": {
+      "uuid": "fe06d4b6-21b2-4429-a38d-ce084bb504b1",
+      "date_captured": "2024-05-03T17:00:00.031Z",
+      "date_registered": "2024-08-03T18:01:02.061Z",
+      "station": 3,
+      "temperature": "23.54",
+      "humidity": "36.98",
+      "precipitation": "2.9",
+      "wind_direction": "34.17",
+      "wind_speed": "8.91"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 67,
+    "fields": {
+      "uuid": "62fb8b10-7cfb-4248-b894-f1cdc56cb91f",
+      "date_captured": "2024-05-03T18:00:00.681Z",
+      "date_registered": "2024-08-03T18:01:02.062Z",
+      "station": 3,
+      "temperature": "21.43",
+      "humidity": "43.32",
+      "precipitation": "3.3",
+      "wind_direction": "32.34",
+      "wind_speed": "6.90"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 68,
+    "fields": {
+      "uuid": "7719419e-d33c-4707-a7e9-ead9475e36a5",
+      "date_captured": "2024-05-03T19:00:00.832Z",
+      "date_registered": "2024-08-03T18:01:02.063Z",
+      "station": 3,
+      "temperature": "23.97",
+      "humidity": "40.21",
+      "precipitation": "0.8",
+      "wind_direction": "38.41",
+      "wind_speed": "8.70"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 69,
+    "fields": {
+      "uuid": "c388e62c-735a-4f98-8978-f7ce5a87e9a7",
+      "date_captured": "2024-05-03T20:00:00.015Z",
+      "date_registered": "2024-08-03T18:01:02.064Z",
+      "station": 3,
+      "temperature": "26.77",
+      "humidity": "41.34",
+      "precipitation": "3.4",
+      "wind_direction": "33.80",
+      "wind_speed": "10.68"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 70,
+    "fields": {
+      "uuid": "05228f0b-75e6-4945-b9d5-da41dfc2dba3",
+      "date_captured": "2024-05-03T21:00:00.037Z",
+      "date_registered": "2024-08-03T18:01:02.065Z",
+      "station": 3,
+      "temperature": "23.58",
+      "humidity": "37.97",
+      "precipitation": "2.2",
+      "wind_direction": "34.70",
+      "wind_speed": "11.38"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 71,
+    "fields": {
+      "uuid": "3a9d5de2-e1e3-4e18-b93c-f94e15e740c7",
+      "date_captured": "2024-05-03T22:00:00.513Z",
+      "date_registered": "2024-08-03T18:01:02.066Z",
+      "station": 3,
+      "temperature": "15.43",
+      "humidity": "49.50",
+      "precipitation": "0.7",
+      "wind_direction": "30.88",
+      "wind_speed": "11.66"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 72,
+    "fields": {
+      "uuid": "a0f66811-4127-4e4a-8a81-1bda3f0feae6",
+      "date_captured": "2024-05-03T23:00:00.993Z",
+      "date_registered": "2024-08-03T18:01:02.067Z",
+      "station": 3,
+      "temperature": "17.01",
+      "humidity": "37.18",
+      "precipitation": "2.7",
+      "wind_direction": "35.22",
+      "wind_speed": "11.38"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 73,
+    "fields": {
+      "uuid": "de6cd644-1f30-4f1c-a385-5dae612f4fcb",
+      "date_captured": "2024-05-03T00:00:00.673Z",
+      "date_registered": "2024-08-03T18:01:02.068Z",
+      "station": 6,
+      "temperature": "15.56",
+      "humidity": "42.12",
+      "precipitation": "0.2",
+      "wind_direction": "32.20",
+      "wind_speed": "8.73"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 74,
+    "fields": {
+      "uuid": "6a6723c6-849c-440b-a8a8-7338c94ff831",
+      "date_captured": "2024-05-03T01:00:00.274Z",
+      "date_registered": "2024-08-03T18:01:02.069Z",
+      "station": 6,
+      "temperature": "17.15",
+      "humidity": "35.79",
+      "precipitation": "3.6",
+      "wind_direction": "33.98",
+      "wind_speed": "7.69"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 75,
+    "fields": {
+      "uuid": "4ba4d8df-51b1-44c3-9c56-85ec5558deb1",
+      "date_captured": "2024-05-03T02:00:00.457Z",
+      "date_registered": "2024-08-03T18:01:02.070Z",
+      "station": 6,
+      "temperature": "17.54",
+      "humidity": "45.88",
+      "precipitation": "1.0",
+      "wind_direction": "36.85",
+      "wind_speed": "10.60"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 76,
+    "fields": {
+      "uuid": "22d3c28a-cbab-47f4-8705-2ea614ec8f64",
+      "date_captured": "2024-05-03T03:00:00.770Z",
+      "date_registered": "2024-08-03T18:01:02.071Z",
+      "station": 6,
+      "temperature": "19.80",
+      "humidity": "42.83",
+      "precipitation": "0.4",
+      "wind_direction": "38.70",
+      "wind_speed": "11.48"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 77,
+    "fields": {
+      "uuid": "ab748adf-62a4-4233-afe1-634257e94827",
+      "date_captured": "2024-05-03T04:00:00.523Z",
+      "date_registered": "2024-08-03T18:01:02.072Z",
+      "station": 6,
+      "temperature": "17.25",
+      "humidity": "48.94",
+      "precipitation": "1.3",
+      "wind_direction": "37.90",
+      "wind_speed": "12.99"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 78,
+    "fields": {
+      "uuid": "c41654d2-e7c5-4e85-a6fa-779fab83a8fe",
+      "date_captured": "2024-05-03T05:00:00.730Z",
+      "date_registered": "2024-08-03T18:01:02.074Z",
+      "station": 6,
+      "temperature": "19.83",
+      "humidity": "39.90",
+      "precipitation": "0.6",
+      "wind_direction": "36.80",
+      "wind_speed": "5.82"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 79,
+    "fields": {
+      "uuid": "fe8a31a1-30e0-4a64-bf73-4f6cd2af7038",
+      "date_captured": "2024-05-03T06:00:00.415Z",
+      "date_registered": "2024-08-03T18:01:02.075Z",
+      "station": 6,
+      "temperature": "16.80",
+      "humidity": "32.91",
+      "precipitation": "4.0",
+      "wind_direction": "38.47",
+      "wind_speed": "6.43"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 80,
+    "fields": {
+      "uuid": "1101a28d-21e6-42dd-936c-121543d6d325",
+      "date_captured": "2024-05-03T07:00:00.384Z",
+      "date_registered": "2024-08-03T18:01:02.076Z",
+      "station": 6,
+      "temperature": "21.26",
+      "humidity": "30.80",
+      "precipitation": "0.3",
+      "wind_direction": "36.53",
+      "wind_speed": "9.29"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 81,
+    "fields": {
+      "uuid": "884738d4-9cbf-4209-a314-bcd796a1f595",
+      "date_captured": "2024-05-03T08:00:00.605Z",
+      "date_registered": "2024-08-03T18:01:02.077Z",
+      "station": 6,
+      "temperature": "22.64",
+      "humidity": "45.74",
+      "precipitation": "3.9",
+      "wind_direction": "33.22",
+      "wind_speed": "6.73"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 82,
+    "fields": {
+      "uuid": "11a22d50-3cf4-4de9-896b-efb97dea99b8",
+      "date_captured": "2024-05-03T09:00:00.627Z",
+      "date_registered": "2024-08-03T18:01:02.078Z",
+      "station": 6,
+      "temperature": "26.40",
+      "humidity": "44.16",
+      "precipitation": "0.8",
+      "wind_direction": "33.74",
+      "wind_speed": "12.92"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 83,
+    "fields": {
+      "uuid": "d818f224-6d9f-4357-bc82-a998c303053f",
+      "date_captured": "2024-05-03T10:00:00.701Z",
+      "date_registered": "2024-08-03T18:01:02.079Z",
+      "station": 6,
+      "temperature": "21.13",
+      "humidity": "30.20",
+      "precipitation": "3.7",
+      "wind_direction": "36.63",
+      "wind_speed": "12.10"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 84,
+    "fields": {
+      "uuid": "fffd03bc-501d-4049-8e48-a22c74a772e7",
+      "date_captured": "2024-05-03T11:00:00.450Z",
+      "date_registered": "2024-08-03T18:01:02.080Z",
+      "station": 6,
+      "temperature": "23.16",
+      "humidity": "35.28",
+      "precipitation": "3.0",
+      "wind_direction": "37.16",
+      "wind_speed": "11.00"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 85,
+    "fields": {
+      "uuid": "e2c9159f-d0ff-4d96-baf0-3b823d7c2a62",
+      "date_captured": "2024-05-03T12:00:00.441Z",
+      "date_registered": "2024-08-03T18:01:02.081Z",
+      "station": 6,
+      "temperature": "25.39",
+      "humidity": "40.46",
+      "precipitation": "1.6",
+      "wind_direction": "34.87",
+      "wind_speed": "11.77"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 86,
+    "fields": {
+      "uuid": "d47a3a62-2acd-4845-b6ee-b7a7f3ca7ea6",
+      "date_captured": "2024-05-03T13:00:00.540Z",
+      "date_registered": "2024-08-03T18:01:02.083Z",
+      "station": 6,
+      "temperature": "24.83",
+      "humidity": "39.68",
+      "precipitation": "2.3",
+      "wind_direction": "37.44",
+      "wind_speed": "7.49"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 87,
+    "fields": {
+      "uuid": "b7bd81bc-0329-4921-acb2-872c8d1928fd",
+      "date_captured": "2024-05-03T14:00:00.500Z",
+      "date_registered": "2024-08-03T18:01:02.084Z",
+      "station": 6,
+      "temperature": "21.19",
+      "humidity": "41.13",
+      "precipitation": "3.0",
+      "wind_direction": "34.57",
+      "wind_speed": "7.17"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 88,
+    "fields": {
+      "uuid": "6a2c874e-033c-493b-a3af-f271873c3ebf",
+      "date_captured": "2024-05-03T15:00:00.356Z",
+      "date_registered": "2024-08-03T18:01:02.085Z",
+      "station": 6,
+      "temperature": "25.26",
+      "humidity": "35.93",
+      "precipitation": "3.5",
+      "wind_direction": "38.80",
+      "wind_speed": "7.14"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 89,
+    "fields": {
+      "uuid": "84373954-f1e4-4803-b7d0-626ceab050e1",
+      "date_captured": "2024-05-03T16:00:00.770Z",
+      "date_registered": "2024-08-03T18:01:02.086Z",
+      "station": 6,
+      "temperature": "23.80",
+      "humidity": "47.19",
+      "precipitation": "3.9",
+      "wind_direction": "34.89",
+      "wind_speed": "11.90"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 90,
+    "fields": {
+      "uuid": "67c9a25b-0c75-4b46-8081-a06625f24e1f",
+      "date_captured": "2024-05-03T17:00:00.243Z",
+      "date_registered": "2024-08-03T18:01:02.087Z",
+      "station": 6,
+      "temperature": "23.23",
+      "humidity": "49.98",
+      "precipitation": "1.7",
+      "wind_direction": "38.68",
+      "wind_speed": "11.64"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 91,
+    "fields": {
+      "uuid": "345042ac-cb84-436d-abfb-bbcb7aceb27d",
+      "date_captured": "2024-05-03T18:00:00.063Z",
+      "date_registered": "2024-08-03T18:01:02.088Z",
+      "station": 6,
+      "temperature": "26.60",
+      "humidity": "49.30",
+      "precipitation": "1.9",
+      "wind_direction": "36.26",
+      "wind_speed": "10.30"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 92,
+    "fields": {
+      "uuid": "520c00fe-5dca-47e8-825a-541ff587e013",
+      "date_captured": "2024-05-03T19:00:00.328Z",
+      "date_registered": "2024-08-03T18:01:02.089Z",
+      "station": 6,
+      "temperature": "24.26",
+      "humidity": "46.41",
+      "precipitation": "1.3",
+      "wind_direction": "33.99",
+      "wind_speed": "8.50"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 93,
+    "fields": {
+      "uuid": "b3784e31-1fa2-48fa-9a88-53316d53ca72",
+      "date_captured": "2024-05-03T20:00:00.414Z",
+      "date_registered": "2024-08-03T18:01:02.090Z",
+      "station": 6,
+      "temperature": "23.61",
+      "humidity": "50.19",
+      "precipitation": "1.3",
+      "wind_direction": "30.25",
+      "wind_speed": "12.00"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 94,
+    "fields": {
+      "uuid": "37f3d6b8-48a7-4964-833b-5c5e2ed0a20e",
+      "date_captured": "2024-05-03T21:00:00.275Z",
+      "date_registered": "2024-08-03T18:01:02.091Z",
+      "station": 6,
+      "temperature": "24.30",
+      "humidity": "31.93",
+      "precipitation": "0.2",
+      "wind_direction": "32.13",
+      "wind_speed": "5.15"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 95,
+    "fields": {
+      "uuid": "4676d690-fa38-4196-a3e0-c6551953a5e2",
+      "date_captured": "2024-05-03T22:00:00.217Z",
+      "date_registered": "2024-08-03T18:01:02.092Z",
+      "station": 6,
+      "temperature": "16.57",
+      "humidity": "45.10",
+      "precipitation": "2.7",
+      "wind_direction": "37.36",
+      "wind_speed": "8.80"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 96,
+    "fields": {
+      "uuid": "edf3d097-225c-4454-98a6-84ba6ad1934f",
+      "date_captured": "2024-05-03T23:00:00.525Z",
+      "date_registered": "2024-08-03T18:01:02.093Z",
+      "station": 6,
+      "temperature": "18.79",
+      "humidity": "40.55",
+      "precipitation": "1.0",
+      "wind_direction": "36.64",
+      "wind_speed": "12.54"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 97,
+    "fields": {
+      "uuid": "46d39c73-9b42-4268-86b1-90815b91f9d4",
+      "date_captured": "2024-05-03T00:00:00.660Z",
+      "date_registered": "2024-08-03T18:01:02.094Z",
+      "station": 4,
+      "temperature": "15.64",
+      "humidity": "50.90",
+      "precipitation": "2.5",
+      "wind_direction": "33.16",
+      "wind_speed": "6.64"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 98,
+    "fields": {
+      "uuid": "28c8ca46-07d2-41be-a88c-e221b4247c15",
+      "date_captured": "2024-05-03T01:00:00.777Z",
+      "date_registered": "2024-08-03T18:01:02.095Z",
+      "station": 4,
+      "temperature": "15.27",
+      "humidity": "32.18",
+      "precipitation": "2.6",
+      "wind_direction": "32.76",
+      "wind_speed": "7.62"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 99,
+    "fields": {
+      "uuid": "041c7c0b-9d13-4bb0-968d-ed2d6114cd4a",
+      "date_captured": "2024-05-03T02:00:00.844Z",
+      "date_registered": "2024-08-03T18:01:02.097Z",
+      "station": 4,
+      "temperature": "17.16",
+      "humidity": "41.88",
+      "precipitation": "3.1",
+      "wind_direction": "30.36",
+      "wind_speed": "8.40"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 100,
+    "fields": {
+      "uuid": "f9caa6a4-4368-46f2-b46d-3bc935c79ac5",
+      "date_captured": "2024-05-03T03:00:00.307Z",
+      "date_registered": "2024-08-03T18:01:02.098Z",
+      "station": 4,
+      "temperature": "16.30",
+      "humidity": "39.53",
+      "precipitation": "3.6",
+      "wind_direction": "30.40",
+      "wind_speed": "6.82"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 101,
+    "fields": {
+      "uuid": "c9772cec-cfaf-49e2-bc56-e56d56d4384d",
+      "date_captured": "2024-05-03T04:00:00.205Z",
+      "date_registered": "2024-08-03T18:01:02.099Z",
+      "station": 4,
+      "temperature": "19.85",
+      "humidity": "37.14",
+      "precipitation": "0.3",
+      "wind_direction": "34.20",
+      "wind_speed": "12.62"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 102,
+    "fields": {
+      "uuid": "f5f2b55b-2b65-48fd-88f7-3e54310fdac4",
+      "date_captured": "2024-05-03T05:00:00.482Z",
+      "date_registered": "2024-08-03T18:01:02.100Z",
+      "station": 4,
+      "temperature": "16.80",
+      "humidity": "44.14",
+      "precipitation": "1.5",
+      "wind_direction": "36.57",
+      "wind_speed": "6.85"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 103,
+    "fields": {
+      "uuid": "809e92a8-f72f-44ba-ba17-98e98a7dd09b",
+      "date_captured": "2024-05-03T06:00:00.407Z",
+      "date_registered": "2024-08-03T18:01:02.101Z",
+      "station": 4,
+      "temperature": "16.66",
+      "humidity": "39.70",
+      "precipitation": "2.6",
+      "wind_direction": "30.80",
+      "wind_speed": "8.22"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 104,
+    "fields": {
+      "uuid": "5c2c3b77-fec9-4151-b25c-fee7fd94058b",
+      "date_captured": "2024-05-03T07:00:00.670Z",
+      "date_registered": "2024-08-03T18:01:02.102Z",
+      "station": 4,
+      "temperature": "24.96",
+      "humidity": "35.30",
+      "precipitation": "1.8",
+      "wind_direction": "36.60",
+      "wind_speed": "9.85"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 105,
+    "fields": {
+      "uuid": "8925d6a1-2c74-4ea8-a8b1-13b9a7418164",
+      "date_captured": "2024-05-03T08:00:00.325Z",
+      "date_registered": "2024-08-03T18:01:02.103Z",
+      "station": 4,
+      "temperature": "25.84",
+      "humidity": "44.49",
+      "precipitation": "2.6",
+      "wind_direction": "31.37",
+      "wind_speed": "11.57"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 106,
+    "fields": {
+      "uuid": "fd002e2c-680e-4127-b8fc-5a91021ca529",
+      "date_captured": "2024-05-03T09:00:00.352Z",
+      "date_registered": "2024-08-03T18:01:02.105Z",
+      "station": 4,
+      "temperature": "26.54",
+      "humidity": "41.36",
+      "precipitation": "0.8",
+      "wind_direction": "38.35",
+      "wind_speed": "11.32"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 107,
+    "fields": {
+      "uuid": "13bc4855-491f-47a5-81b4-75584f9f7c74",
+      "date_captured": "2024-05-03T10:00:00.446Z",
+      "date_registered": "2024-08-03T18:01:02.106Z",
+      "station": 4,
+      "temperature": "23.40",
+      "humidity": "39.30",
+      "precipitation": "0.2",
+      "wind_direction": "32.86",
+      "wind_speed": "7.93"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 108,
+    "fields": {
+      "uuid": "44961562-dbdf-4ab3-a213-30ef74655b9c",
+      "date_captured": "2024-05-03T11:00:00.721Z",
+      "date_registered": "2024-08-03T18:01:02.107Z",
+      "station": 4,
+      "temperature": "21.86",
+      "humidity": "44.82",
+      "precipitation": "3.1",
+      "wind_direction": "31.40",
+      "wind_speed": "7.37"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 109,
+    "fields": {
+      "uuid": "173fa5d7-b3a0-497b-89ff-f933b750d786",
+      "date_captured": "2024-05-03T12:00:00.985Z",
+      "date_registered": "2024-08-03T18:01:02.108Z",
+      "station": 4,
+      "temperature": "23.88",
+      "humidity": "37.46",
+      "precipitation": "0.6",
+      "wind_direction": "30.49",
+      "wind_speed": "6.72"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 110,
+    "fields": {
+      "uuid": "3fe07757-3297-43f5-bd7b-d208f774f674",
+      "date_captured": "2024-05-03T13:00:00.958Z",
+      "date_registered": "2024-08-03T18:01:02.109Z",
+      "station": 4,
+      "temperature": "22.69",
+      "humidity": "35.97",
+      "precipitation": "3.6",
+      "wind_direction": "38.71",
+      "wind_speed": "12.39"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 111,
+    "fields": {
+      "uuid": "1b928d3e-f5c3-4f03-883f-619da2982934",
+      "date_captured": "2024-05-03T14:00:00.614Z",
+      "date_registered": "2024-08-03T18:01:02.111Z",
+      "station": 4,
+      "temperature": "22.51",
+      "humidity": "38.38",
+      "precipitation": "2.3",
+      "wind_direction": "32.71",
+      "wind_speed": "11.60"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 112,
+    "fields": {
+      "uuid": "1ed5be43-90ea-46de-9fb8-3c045c7a9e6c",
+      "date_captured": "2024-05-03T15:00:00.593Z",
+      "date_registered": "2024-08-03T18:01:02.112Z",
+      "station": 4,
+      "temperature": "24.73",
+      "humidity": "38.20",
+      "precipitation": "2.4",
+      "wind_direction": "30.53",
+      "wind_speed": "12.21"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 113,
+    "fields": {
+      "uuid": "262500dc-7065-495e-a463-2ca0a1c84702",
+      "date_captured": "2024-05-03T16:00:00.830Z",
+      "date_registered": "2024-08-03T18:01:02.113Z",
+      "station": 4,
+      "temperature": "25.43",
+      "humidity": "43.89",
+      "precipitation": "3.5",
+      "wind_direction": "38.45",
+      "wind_speed": "10.86"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 114,
+    "fields": {
+      "uuid": "5efd6d67-3a96-4c68-b781-217547c3d390",
+      "date_captured": "2024-05-03T17:00:00.296Z",
+      "date_registered": "2024-08-03T18:01:02.114Z",
+      "station": 4,
+      "temperature": "25.70",
+      "humidity": "48.31",
+      "precipitation": "2.9",
+      "wind_direction": "38.19",
+      "wind_speed": "5.49"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 115,
+    "fields": {
+      "uuid": "b12454ad-f1b9-4ce6-a1e4-fe882933f97e",
+      "date_captured": "2024-05-03T18:00:00.978Z",
+      "date_registered": "2024-08-03T18:01:02.115Z",
+      "station": 4,
+      "temperature": "24.67",
+      "humidity": "30.31",
+      "precipitation": "3.9",
+      "wind_direction": "38.95",
+      "wind_speed": "9.87"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 116,
+    "fields": {
+      "uuid": "6b40e04d-9565-4a82-9b9b-db066715e885",
+      "date_captured": "2024-05-03T19:00:00.322Z",
+      "date_registered": "2024-08-03T18:01:02.116Z",
+      "station": 4,
+      "temperature": "23.10",
+      "humidity": "50.45",
+      "precipitation": "1.1",
+      "wind_direction": "38.55",
+      "wind_speed": "7.84"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 117,
+    "fields": {
+      "uuid": "8869dfdd-cb95-4d7c-919b-9c8523c77100",
+      "date_captured": "2024-05-03T20:00:00.783Z",
+      "date_registered": "2024-08-03T18:01:02.117Z",
+      "station": 4,
+      "temperature": "26.79",
+      "humidity": "33.20",
+      "precipitation": "2.2",
+      "wind_direction": "38.10",
+      "wind_speed": "12.75"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 118,
+    "fields": {
+      "uuid": "32864663-ebc4-482c-bb30-93911433c9d4",
+      "date_captured": "2024-05-03T21:00:00.088Z",
+      "date_registered": "2024-08-03T18:01:02.118Z",
+      "station": 4,
+      "temperature": "25.54",
+      "humidity": "44.43",
+      "precipitation": "0.6",
+      "wind_direction": "31.53",
+      "wind_speed": "9.76"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 119,
+    "fields": {
+      "uuid": "76b8c6bb-efc7-4d41-9f77-5044a3606249",
+      "date_captured": "2024-05-03T22:00:00.316Z",
+      "date_registered": "2024-08-03T18:01:02.120Z",
+      "station": 4,
+      "temperature": "16.22",
+      "humidity": "30.50",
+      "precipitation": "1.6",
+      "wind_direction": "36.70",
+      "wind_speed": "10.46"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 120,
+    "fields": {
+      "uuid": "d67c8af3-ce32-4c31-ab87-1534cc014290",
+      "date_captured": "2024-05-03T23:00:00.776Z",
+      "date_registered": "2024-08-03T18:01:02.121Z",
+      "station": 4,
+      "temperature": "15.02",
+      "humidity": "31.24",
+      "precipitation": "2.0",
+      "wind_direction": "34.51",
+      "wind_speed": "7.71"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 121,
+    "fields": {
+      "uuid": "b9022aff-8e9a-46e5-98c3-e4aae49a561f",
+      "date_captured": "2024-05-03T00:00:00.047Z",
+      "date_registered": "2024-08-03T18:01:02.123Z",
+      "station": 5,
+      "temperature": "16.03",
+      "humidity": "43.82",
+      "precipitation": "2.3",
+      "wind_direction": "33.78",
+      "wind_speed": "6.35"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 122,
+    "fields": {
+      "uuid": "6a7e7e3d-3bd0-40e3-99f9-050a6374d920",
+      "date_captured": "2024-05-03T01:00:00.384Z",
+      "date_registered": "2024-08-03T18:01:02.124Z",
+      "station": 5,
+      "temperature": "15.84",
+      "humidity": "41.72",
+      "precipitation": "1.4",
+      "wind_direction": "38.50",
+      "wind_speed": "11.47"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 123,
+    "fields": {
+      "uuid": "0afdc7d8-d228-4345-be1b-3feafdf5987e",
+      "date_captured": "2024-05-03T02:00:00.754Z",
+      "date_registered": "2024-08-03T18:01:02.125Z",
+      "station": 5,
+      "temperature": "15.56",
+      "humidity": "47.59",
+      "precipitation": "1.3",
+      "wind_direction": "37.88",
+      "wind_speed": "8.39"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 124,
+    "fields": {
+      "uuid": "df9ddd16-7fa6-4578-83a3-ec4d8b892b36",
+      "date_captured": "2024-05-03T03:00:00.435Z",
+      "date_registered": "2024-08-03T18:01:02.126Z",
+      "station": 5,
+      "temperature": "16.70",
+      "humidity": "44.21",
+      "precipitation": "0.1",
+      "wind_direction": "34.75",
+      "wind_speed": "9.40"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 125,
+    "fields": {
+      "uuid": "e3c73964-d820-45b3-ae0d-8279f9d5577b",
+      "date_captured": "2024-05-03T04:00:00.006Z",
+      "date_registered": "2024-08-03T18:01:02.127Z",
+      "station": 5,
+      "temperature": "18.48",
+      "humidity": "48.92",
+      "precipitation": "3.7",
+      "wind_direction": "37.55",
+      "wind_speed": "5.20"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 126,
+    "fields": {
+      "uuid": "19d7cf35-4269-4374-bd30-7e065c8c4d58",
+      "date_captured": "2024-05-03T05:00:00.373Z",
+      "date_registered": "2024-08-03T18:01:02.129Z",
+      "station": 5,
+      "temperature": "19.39",
+      "humidity": "36.30",
+      "precipitation": "3.3",
+      "wind_direction": "31.86",
+      "wind_speed": "10.52"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 127,
+    "fields": {
+      "uuid": "c99f0239-6956-49ac-899e-4619721772c0",
+      "date_captured": "2024-05-03T06:00:00.910Z",
+      "date_registered": "2024-08-03T18:01:02.130Z",
+      "station": 5,
+      "temperature": "18.40",
+      "humidity": "37.36",
+      "precipitation": "1.2",
+      "wind_direction": "35.23",
+      "wind_speed": "10.47"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 128,
+    "fields": {
+      "uuid": "29c10dea-659d-4bcc-a84a-fc2ad63746eb",
+      "date_captured": "2024-05-03T07:00:00.880Z",
+      "date_registered": "2024-08-03T18:01:02.131Z",
+      "station": 5,
+      "temperature": "24.61",
+      "humidity": "42.17",
+      "precipitation": "0.5",
+      "wind_direction": "33.23",
+      "wind_speed": "5.37"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 129,
+    "fields": {
+      "uuid": "f08219c0-875b-4284-8385-9f28ccf3cfac",
+      "date_captured": "2024-05-03T08:00:00.320Z",
+      "date_registered": "2024-08-03T18:01:02.132Z",
+      "station": 5,
+      "temperature": "24.56",
+      "humidity": "48.76",
+      "precipitation": "1.7",
+      "wind_direction": "30.20",
+      "wind_speed": "12.20"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 130,
+    "fields": {
+      "uuid": "a8c50966-1514-482a-a96d-49b00a9f3c9a",
+      "date_captured": "2024-05-03T09:00:00.295Z",
+      "date_registered": "2024-08-03T18:01:02.133Z",
+      "station": 5,
+      "temperature": "21.32",
+      "humidity": "40.76",
+      "precipitation": "3.3",
+      "wind_direction": "33.59",
+      "wind_speed": "10.66"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 131,
+    "fields": {
+      "uuid": "af59f7c3-f290-4390-9bca-b8a671a3b2ec",
+      "date_captured": "2024-05-03T10:00:00.222Z",
+      "date_registered": "2024-08-03T18:01:02.134Z",
+      "station": 5,
+      "temperature": "25.69",
+      "humidity": "36.73",
+      "precipitation": "3.5",
+      "wind_direction": "36.84",
+      "wind_speed": "6.96"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 132,
+    "fields": {
+      "uuid": "b41040bb-87ab-4a8a-9584-e458c30f83fa",
+      "date_captured": "2024-05-03T11:00:00.397Z",
+      "date_registered": "2024-08-03T18:01:02.135Z",
+      "station": 5,
+      "temperature": "26.40",
+      "humidity": "43.31",
+      "precipitation": "1.2",
+      "wind_direction": "35.60",
+      "wind_speed": "8.20"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 133,
+    "fields": {
+      "uuid": "f84f7400-e317-423d-bab4-8f73a5479347",
+      "date_captured": "2024-05-03T12:00:00.416Z",
+      "date_registered": "2024-08-03T18:01:02.136Z",
+      "station": 5,
+      "temperature": "22.31",
+      "humidity": "49.71",
+      "precipitation": "1.1",
+      "wind_direction": "37.70",
+      "wind_speed": "7.22"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 134,
+    "fields": {
+      "uuid": "79777b20-d29d-4390-aea7-b39ba4eb79a0",
+      "date_captured": "2024-05-03T13:00:00.889Z",
+      "date_registered": "2024-08-03T18:01:02.137Z",
+      "station": 5,
+      "temperature": "21.88",
+      "humidity": "43.14",
+      "precipitation": "1.6",
+      "wind_direction": "38.77",
+      "wind_speed": "9.15"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 135,
+    "fields": {
+      "uuid": "4ab927d7-dda3-4b4b-b7dc-47321058b2e4",
+      "date_captured": "2024-05-03T14:00:00.169Z",
+      "date_registered": "2024-08-03T18:01:02.138Z",
+      "station": 5,
+      "temperature": "23.32",
+      "humidity": "47.69",
+      "precipitation": "3.9",
+      "wind_direction": "38.38",
+      "wind_speed": "11.65"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 136,
+    "fields": {
+      "uuid": "8af41ea5-fc96-45b1-bf18-232dad070e6d",
+      "date_captured": "2024-05-03T15:00:00.038Z",
+      "date_registered": "2024-08-03T18:01:02.139Z",
+      "station": 5,
+      "temperature": "24.33",
+      "humidity": "30.72",
+      "precipitation": "0.9",
+      "wind_direction": "31.27",
+      "wind_speed": "11.99"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 137,
+    "fields": {
+      "uuid": "3ddfbb6d-d9e8-4f08-985f-9965cd94ecd8",
+      "date_captured": "2024-05-03T16:00:00.684Z",
+      "date_registered": "2024-08-03T18:01:02.140Z",
+      "station": 5,
+      "temperature": "26.20",
+      "humidity": "34.32",
+      "precipitation": "2.4",
+      "wind_direction": "31.19",
+      "wind_speed": "11.80"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 138,
+    "fields": {
+      "uuid": "1e4e9280-40d5-4f13-a67f-6f8782a1d21a",
+      "date_captured": "2024-05-03T17:00:00.341Z",
+      "date_registered": "2024-08-03T18:01:02.141Z",
+      "station": 5,
+      "temperature": "21.20",
+      "humidity": "34.29",
+      "precipitation": "1.9",
+      "wind_direction": "38.68",
+      "wind_speed": "9.97"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 139,
+    "fields": {
+      "uuid": "0d8dba5b-840f-4c51-97df-f91f5f5c0adc",
+      "date_captured": "2024-05-03T18:00:00.037Z",
+      "date_registered": "2024-08-03T18:01:02.142Z",
+      "station": 5,
+      "temperature": "23.16",
+      "humidity": "38.11",
+      "precipitation": "2.0",
+      "wind_direction": "33.12",
+      "wind_speed": "5.94"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 140,
+    "fields": {
+      "uuid": "57847acb-73fd-46f1-82d6-33ebb1d8642d",
+      "date_captured": "2024-05-03T19:00:00.694Z",
+      "date_registered": "2024-08-03T18:01:02.143Z",
+      "station": 5,
+      "temperature": "23.00",
+      "humidity": "50.89",
+      "precipitation": "1.9",
+      "wind_direction": "32.97",
+      "wind_speed": "7.89"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 141,
+    "fields": {
+      "uuid": "759d4969-a2a5-4417-b402-c5b41dea348c",
+      "date_captured": "2024-05-03T20:00:00.575Z",
+      "date_registered": "2024-08-03T18:01:02.144Z",
+      "station": 5,
+      "temperature": "25.98",
+      "humidity": "39.36",
+      "precipitation": "2.0",
+      "wind_direction": "33.47",
+      "wind_speed": "8.56"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 142,
+    "fields": {
+      "uuid": "d34f2b16-be65-49dd-bb95-91649463de99",
+      "date_captured": "2024-05-03T21:00:00.394Z",
+      "date_registered": "2024-08-03T18:01:02.149Z",
+      "station": 5,
+      "temperature": "23.70",
+      "humidity": "36.67",
+      "precipitation": "0.2",
+      "wind_direction": "34.97",
+      "wind_speed": "6.40"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 143,
+    "fields": {
+      "uuid": "51f56045-74d6-4cbe-b5b8-1a17119a32d9",
+      "date_captured": "2024-05-03T22:00:00.685Z",
+      "date_registered": "2024-08-03T18:01:02.150Z",
+      "station": 5,
+      "temperature": "18.49",
+      "humidity": "45.27",
+      "precipitation": "0.4",
+      "wind_direction": "38.87",
+      "wind_speed": "10.26"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 144,
+    "fields": {
+      "uuid": "60f5ebf0-c855-4c2f-9f98-20f075e2357a",
+      "date_captured": "2024-05-03T23:00:00.374Z",
+      "date_registered": "2024-08-03T18:01:02.151Z",
+      "station": 5,
+      "temperature": "16.03",
+      "humidity": "50.10",
+      "precipitation": "1.9",
+      "wind_direction": "33.40",
+      "wind_speed": "5.86"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 145,
+    "fields": {
+      "uuid": "814b543e-8c98-495d-bee9-2ac37c6e711a",
+      "date_captured": "2024-05-03T00:00:00.992Z",
+      "date_registered": "2024-08-03T18:01:02.152Z",
+      "station": 9,
+      "temperature": "18.31",
+      "humidity": "42.12",
+      "precipitation": "2.5",
+      "wind_direction": "38.47",
+      "wind_speed": "11.34"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 146,
+    "fields": {
+      "uuid": "57639d82-ed44-4c3e-89ce-d300ff517c62",
+      "date_captured": "2024-05-03T01:00:00.390Z",
+      "date_registered": "2024-08-03T18:01:02.154Z",
+      "station": 9,
+      "temperature": "18.68",
+      "humidity": "36.25",
+      "precipitation": "1.5",
+      "wind_direction": "32.70",
+      "wind_speed": "10.85"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 147,
+    "fields": {
+      "uuid": "248dc806-776f-458f-81be-b5fe4b0eb1da",
+      "date_captured": "2024-05-03T02:00:00.474Z",
+      "date_registered": "2024-08-03T18:01:02.155Z",
+      "station": 9,
+      "temperature": "16.86",
+      "humidity": "33.77",
+      "precipitation": "1.5",
+      "wind_direction": "35.40",
+      "wind_speed": "10.22"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 148,
+    "fields": {
+      "uuid": "ebfd11f2-26e8-4573-a31b-224f6b92fb2f",
+      "date_captured": "2024-05-03T03:00:00.320Z",
+      "date_registered": "2024-08-03T18:01:02.156Z",
+      "station": 9,
+      "temperature": "18.69",
+      "humidity": "34.51",
+      "precipitation": "1.3",
+      "wind_direction": "36.91",
+      "wind_speed": "6.87"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 149,
+    "fields": {
+      "uuid": "e26afe51-bcd6-4576-bfae-f88a8f8b416c",
+      "date_captured": "2024-05-03T04:00:00.970Z",
+      "date_registered": "2024-08-03T18:01:02.157Z",
+      "station": 9,
+      "temperature": "15.20",
+      "humidity": "37.46",
+      "precipitation": "3.7",
+      "wind_direction": "33.21",
+      "wind_speed": "7.53"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 150,
+    "fields": {
+      "uuid": "8492db1a-6ccd-4bf9-8d78-4711921df7dd",
+      "date_captured": "2024-05-03T05:00:00.885Z",
+      "date_registered": "2024-08-03T18:01:02.159Z",
+      "station": 9,
+      "temperature": "18.46",
+      "humidity": "37.10",
+      "precipitation": "2.4",
+      "wind_direction": "30.71",
+      "wind_speed": "5.79"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 151,
+    "fields": {
+      "uuid": "035e273a-e4b2-47ad-89c3-3bc9b2ee8bcb",
+      "date_captured": "2024-05-03T06:00:00.820Z",
+      "date_registered": "2024-08-03T18:01:02.160Z",
+      "station": 9,
+      "temperature": "19.56",
+      "humidity": "43.18",
+      "precipitation": "1.2",
+      "wind_direction": "31.63",
+      "wind_speed": "11.79"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 152,
+    "fields": {
+      "uuid": "5b4ebb0a-6296-4bdb-aeaf-881609b9652a",
+      "date_captured": "2024-05-03T07:00:00.567Z",
+      "date_registered": "2024-08-03T18:01:02.161Z",
+      "station": 9,
+      "temperature": "22.50",
+      "humidity": "47.51",
+      "precipitation": "3.2",
+      "wind_direction": "32.67",
+      "wind_speed": "6.45"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 153,
+    "fields": {
+      "uuid": "209f34f8-bf19-450f-b4b4-162cf25c5253",
+      "date_captured": "2024-05-03T08:00:00.356Z",
+      "date_registered": "2024-08-03T18:01:02.163Z",
+      "station": 9,
+      "temperature": "25.53",
+      "humidity": "31.32",
+      "precipitation": "0.4",
+      "wind_direction": "36.59",
+      "wind_speed": "7.76"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 154,
+    "fields": {
+      "uuid": "f450b989-1aee-4dc1-9dbc-ca5451c96010",
+      "date_captured": "2024-05-03T09:00:00.701Z",
+      "date_registered": "2024-08-03T18:01:02.164Z",
+      "station": 9,
+      "temperature": "21.31",
+      "humidity": "41.98",
+      "precipitation": "3.4",
+      "wind_direction": "38.85",
+      "wind_speed": "5.59"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 155,
+    "fields": {
+      "uuid": "5d019b9e-a4bb-4328-bd19-7b5b46062515",
+      "date_captured": "2024-05-03T10:00:00.555Z",
+      "date_registered": "2024-08-03T18:01:02.165Z",
+      "station": 9,
+      "temperature": "25.25",
+      "humidity": "34.20",
+      "precipitation": "0.6",
+      "wind_direction": "35.98",
+      "wind_speed": "6.64"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 156,
+    "fields": {
+      "uuid": "3382f5ef-7a6c-4441-b928-95467c874639",
+      "date_captured": "2024-05-03T11:00:00.092Z",
+      "date_registered": "2024-08-03T18:01:02.166Z",
+      "station": 9,
+      "temperature": "21.20",
+      "humidity": "32.68",
+      "precipitation": "2.4",
+      "wind_direction": "38.52",
+      "wind_speed": "7.53"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 157,
+    "fields": {
+      "uuid": "0aef6b62-ad76-4f29-af95-19ee0c7e84a0",
+      "date_captured": "2024-05-03T12:00:00.874Z",
+      "date_registered": "2024-08-03T18:01:02.167Z",
+      "station": 9,
+      "temperature": "23.37",
+      "humidity": "34.50",
+      "precipitation": "3.8",
+      "wind_direction": "34.65",
+      "wind_speed": "6.72"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 158,
+    "fields": {
+      "uuid": "9f5034b7-edc3-48b2-89d6-3667b19b33de",
+      "date_captured": "2024-05-03T13:00:00.675Z",
+      "date_registered": "2024-08-03T18:01:02.168Z",
+      "station": 9,
+      "temperature": "22.88",
+      "humidity": "31.81",
+      "precipitation": "3.8",
+      "wind_direction": "38.82",
+      "wind_speed": "7.25"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 159,
+    "fields": {
+      "uuid": "2f1b0c14-ddfa-4121-ab9a-b499fecf6794",
+      "date_captured": "2024-05-03T14:00:00.410Z",
+      "date_registered": "2024-08-03T18:01:02.169Z",
+      "station": 9,
+      "temperature": "25.19",
+      "humidity": "35.67",
+      "precipitation": "1.2",
+      "wind_direction": "37.12",
+      "wind_speed": "5.84"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 160,
+    "fields": {
+      "uuid": "48755ca0-e79e-4869-b597-1a15734e0aef",
+      "date_captured": "2024-05-03T15:00:00.627Z",
+      "date_registered": "2024-08-03T18:01:02.170Z",
+      "station": 9,
+      "temperature": "21.15",
+      "humidity": "48.83",
+      "precipitation": "2.8",
+      "wind_direction": "33.44",
+      "wind_speed": "8.49"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 161,
+    "fields": {
+      "uuid": "0450d0a5-2c2f-4862-9480-b09fcf92629c",
+      "date_captured": "2024-05-03T16:00:00.592Z",
+      "date_registered": "2024-08-03T18:01:02.171Z",
+      "station": 9,
+      "temperature": "21.20",
+      "humidity": "41.18",
+      "precipitation": "1.0",
+      "wind_direction": "32.34",
+      "wind_speed": "12.94"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 162,
+    "fields": {
+      "uuid": "c5306967-d4d9-4386-89b6-fc86896e352a",
+      "date_captured": "2024-05-03T17:00:00.596Z",
+      "date_registered": "2024-08-03T18:01:02.172Z",
+      "station": 9,
+      "temperature": "25.38",
+      "humidity": "47.78",
+      "precipitation": "0.3",
+      "wind_direction": "36.87",
+      "wind_speed": "9.10"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 163,
+    "fields": {
+      "uuid": "db7e2365-9fa5-4937-a3dc-2ebb0a944e8e",
+      "date_captured": "2024-05-03T18:00:00.937Z",
+      "date_registered": "2024-08-03T18:01:02.173Z",
+      "station": 9,
+      "temperature": "26.57",
+      "humidity": "43.89",
+      "precipitation": "3.9",
+      "wind_direction": "38.98",
+      "wind_speed": "8.81"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 164,
+    "fields": {
+      "uuid": "eeaad0f5-01b9-4c4d-a05d-799828896290",
+      "date_captured": "2024-05-03T19:00:00.675Z",
+      "date_registered": "2024-08-03T18:01:02.174Z",
+      "station": 9,
+      "temperature": "24.54",
+      "humidity": "39.24",
+      "precipitation": "0.5",
+      "wind_direction": "31.99",
+      "wind_speed": "10.32"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 165,
+    "fields": {
+      "uuid": "942bf532-b0cd-4d1f-9297-6dd710360596",
+      "date_captured": "2024-05-03T20:00:00.868Z",
+      "date_registered": "2024-08-03T18:01:02.175Z",
+      "station": 9,
+      "temperature": "26.43",
+      "humidity": "39.61",
+      "precipitation": "3.5",
+      "wind_direction": "33.10",
+      "wind_speed": "8.32"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 166,
+    "fields": {
+      "uuid": "94ffdd48-45eb-4593-a0bc-42ef8801d5fb",
+      "date_captured": "2024-05-03T21:00:00.750Z",
+      "date_registered": "2024-08-03T18:01:02.176Z",
+      "station": 9,
+      "temperature": "26.31",
+      "humidity": "44.82",
+      "precipitation": "3.9",
+      "wind_direction": "38.39",
+      "wind_speed": "9.84"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 167,
+    "fields": {
+      "uuid": "e0240ce4-1226-4c76-8c63-95ded0023d25",
+      "date_captured": "2024-05-03T22:00:00.629Z",
+      "date_registered": "2024-08-03T18:01:02.178Z",
+      "station": 9,
+      "temperature": "18.52",
+      "humidity": "42.84",
+      "precipitation": "0.8",
+      "wind_direction": "36.41",
+      "wind_speed": "5.30"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 168,
+    "fields": {
+      "uuid": "7d7bdc96-92f8-4231-8db2-3841251763a9",
+      "date_captured": "2024-05-03T23:00:00.068Z",
+      "date_registered": "2024-08-03T18:01:02.179Z",
+      "station": 9,
+      "temperature": "19.81",
+      "humidity": "31.81",
+      "precipitation": "2.1",
+      "wind_direction": "36.40",
+      "wind_speed": "6.37"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 169,
+    "fields": {
+      "uuid": "be17af8b-0272-48ff-b263-8b750779fb90",
+      "date_captured": "2024-05-03T00:00:00.740Z",
+      "date_registered": "2024-08-03T18:01:02.180Z",
+      "station": 8,
+      "temperature": "16.90",
+      "humidity": "46.93",
+      "precipitation": "3.3",
+      "wind_direction": "31.13",
+      "wind_speed": "8.71"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 170,
+    "fields": {
+      "uuid": "084377b4-8475-409a-a41d-7104b9fdbce8",
+      "date_captured": "2024-05-03T01:00:00.359Z",
+      "date_registered": "2024-08-03T18:01:02.181Z",
+      "station": 8,
+      "temperature": "15.86",
+      "humidity": "33.11",
+      "precipitation": "3.9",
+      "wind_direction": "34.60",
+      "wind_speed": "5.20"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 171,
+    "fields": {
+      "uuid": "8afadddb-afb9-46d1-963e-b5735d05984c",
+      "date_captured": "2024-05-03T02:00:00.702Z",
+      "date_registered": "2024-08-03T18:01:02.182Z",
+      "station": 8,
+      "temperature": "19.82",
+      "humidity": "35.66",
+      "precipitation": "3.8",
+      "wind_direction": "31.76",
+      "wind_speed": "6.74"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 172,
+    "fields": {
+      "uuid": "be95a998-79cc-4703-8782-ae6cad4cfd55",
+      "date_captured": "2024-05-03T03:00:00.865Z",
+      "date_registered": "2024-08-03T18:01:02.183Z",
+      "station": 8,
+      "temperature": "16.78",
+      "humidity": "48.13",
+      "precipitation": "3.9",
+      "wind_direction": "31.73",
+      "wind_speed": "6.58"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 173,
+    "fields": {
+      "uuid": "2b1caa2a-135f-4c52-957a-eba33b67b299",
+      "date_captured": "2024-05-03T04:00:00.022Z",
+      "date_registered": "2024-08-03T18:01:02.184Z",
+      "station": 8,
+      "temperature": "17.03",
+      "humidity": "32.22",
+      "precipitation": "3.9",
+      "wind_direction": "33.40",
+      "wind_speed": "12.48"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 174,
+    "fields": {
+      "uuid": "5a2e88c5-a30e-4d39-a649-d15c8704b83c",
+      "date_captured": "2024-05-03T05:00:00.304Z",
+      "date_registered": "2024-08-03T18:01:02.185Z",
+      "station": 8,
+      "temperature": "16.37",
+      "humidity": "40.62",
+      "precipitation": "2.5",
+      "wind_direction": "31.20",
+      "wind_speed": "5.46"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 175,
+    "fields": {
+      "uuid": "add0952c-b4c0-4b54-8a72-37d26cca5fe6",
+      "date_captured": "2024-05-03T06:00:00.096Z",
+      "date_registered": "2024-08-03T18:01:02.186Z",
+      "station": 8,
+      "temperature": "17.25",
+      "humidity": "31.29",
+      "precipitation": "2.0",
+      "wind_direction": "36.81",
+      "wind_speed": "9.95"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 176,
+    "fields": {
+      "uuid": "64264487-8744-4829-a851-21a0b2f4243c",
+      "date_captured": "2024-05-03T07:00:00.114Z",
+      "date_registered": "2024-08-03T18:01:02.187Z",
+      "station": 8,
+      "temperature": "21.39",
+      "humidity": "40.33",
+      "precipitation": "2.8",
+      "wind_direction": "31.15",
+      "wind_speed": "7.62"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 177,
+    "fields": {
+      "uuid": "ab12a3c4-872b-480c-914a-a8b3fd5218ed",
+      "date_captured": "2024-05-03T08:00:00.973Z",
+      "date_registered": "2024-08-03T18:01:02.188Z",
+      "station": 8,
+      "temperature": "24.12",
+      "humidity": "31.34",
+      "precipitation": "0.3",
+      "wind_direction": "38.23",
+      "wind_speed": "5.84"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 178,
+    "fields": {
+      "uuid": "e24d0cc0-d43d-45a1-8ebb-5f888cb13d35",
+      "date_captured": "2024-05-03T09:00:00.939Z",
+      "date_registered": "2024-08-03T18:01:02.189Z",
+      "station": 8,
+      "temperature": "21.34",
+      "humidity": "30.96",
+      "precipitation": "3.6",
+      "wind_direction": "36.93",
+      "wind_speed": "8.80"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 179,
+    "fields": {
+      "uuid": "2f9580d0-5559-47c5-b872-71a9b7e457eb",
+      "date_captured": "2024-05-03T10:00:00.272Z",
+      "date_registered": "2024-08-03T18:01:02.190Z",
+      "station": 8,
+      "temperature": "25.75",
+      "humidity": "36.72",
+      "precipitation": "0.9",
+      "wind_direction": "34.36",
+      "wind_speed": "9.93"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 180,
+    "fields": {
+      "uuid": "4dc37d27-c3fd-4202-9d3f-325d8f9e0467",
+      "date_captured": "2024-05-03T11:00:00.884Z",
+      "date_registered": "2024-08-03T18:01:02.191Z",
+      "station": 8,
+      "temperature": "25.51",
+      "humidity": "40.32",
+      "precipitation": "3.8",
+      "wind_direction": "35.27",
+      "wind_speed": "10.27"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 181,
+    "fields": {
+      "uuid": "6df89c08-0a88-498b-b564-8a0d690f8a9b",
+      "date_captured": "2024-05-03T12:00:00.505Z",
+      "date_registered": "2024-08-03T18:01:02.192Z",
+      "station": 8,
+      "temperature": "22.14",
+      "humidity": "38.38",
+      "precipitation": "0.1",
+      "wind_direction": "32.19",
+      "wind_speed": "6.10"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 182,
+    "fields": {
+      "uuid": "f6770339-4b51-4604-89c3-64ac0b25172b",
+      "date_captured": "2024-05-03T13:00:00.775Z",
+      "date_registered": "2024-08-03T18:01:02.193Z",
+      "station": 8,
+      "temperature": "21.29",
+      "humidity": "50.93",
+      "precipitation": "3.8",
+      "wind_direction": "32.14",
+      "wind_speed": "10.93"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 183,
+    "fields": {
+      "uuid": "812e27bf-6cff-4a37-aa13-8de6e61f7396",
+      "date_captured": "2024-05-03T14:00:00.881Z",
+      "date_registered": "2024-08-03T18:01:02.194Z",
+      "station": 8,
+      "temperature": "23.15",
+      "humidity": "48.10",
+      "precipitation": "3.1",
+      "wind_direction": "37.27",
+      "wind_speed": "6.62"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 184,
+    "fields": {
+      "uuid": "f2ef6448-f189-4c73-9cb2-0c2477227a72",
+      "date_captured": "2024-05-03T15:00:00.610Z",
+      "date_registered": "2024-08-03T18:01:02.195Z",
+      "station": 8,
+      "temperature": "24.12",
+      "humidity": "39.36",
+      "precipitation": "1.1",
+      "wind_direction": "32.99",
+      "wind_speed": "9.92"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 185,
+    "fields": {
+      "uuid": "14d59bd0-2f21-46b2-b3af-2abc538d9f19",
+      "date_captured": "2024-05-03T16:00:00.494Z",
+      "date_registered": "2024-08-03T18:01:02.196Z",
+      "station": 8,
+      "temperature": "23.58",
+      "humidity": "32.34",
+      "precipitation": "3.5",
+      "wind_direction": "34.11",
+      "wind_speed": "9.49"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 186,
+    "fields": {
+      "uuid": "453699ac-29ac-4de5-a758-eb1aa2eee8ad",
+      "date_captured": "2024-05-03T17:00:00.471Z",
+      "date_registered": "2024-08-03T18:01:02.198Z",
+      "station": 8,
+      "temperature": "22.86",
+      "humidity": "34.30",
+      "precipitation": "2.8",
+      "wind_direction": "31.83",
+      "wind_speed": "6.43"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 187,
+    "fields": {
+      "uuid": "4281dbbf-8d5a-4447-9ce0-4e721ce269b8",
+      "date_captured": "2024-05-03T18:00:00.358Z",
+      "date_registered": "2024-08-03T18:01:02.199Z",
+      "station": 8,
+      "temperature": "23.74",
+      "humidity": "46.82",
+      "precipitation": "3.2",
+      "wind_direction": "31.78",
+      "wind_speed": "8.45"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 188,
+    "fields": {
+      "uuid": "4f27c5f4-dae0-4299-bb21-a2e879317545",
+      "date_captured": "2024-05-03T19:00:00.333Z",
+      "date_registered": "2024-08-03T18:01:02.200Z",
+      "station": 8,
+      "temperature": "26.70",
+      "humidity": "31.11",
+      "precipitation": "1.3",
+      "wind_direction": "36.44",
+      "wind_speed": "5.16"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 189,
+    "fields": {
+      "uuid": "d0bab061-cb2a-4a50-8d2d-0fadd940832e",
+      "date_captured": "2024-05-03T20:00:00.208Z",
+      "date_registered": "2024-08-03T18:01:02.201Z",
+      "station": 8,
+      "temperature": "25.82",
+      "humidity": "39.78",
+      "precipitation": "3.4",
+      "wind_direction": "30.16",
+      "wind_speed": "12.28"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 190,
+    "fields": {
+      "uuid": "24416809-cb2e-4a71-8f94-22190e9c51a4",
+      "date_captured": "2024-05-03T21:00:00.436Z",
+      "date_registered": "2024-08-03T18:01:02.202Z",
+      "station": 8,
+      "temperature": "23.91",
+      "humidity": "42.50",
+      "precipitation": "3.8",
+      "wind_direction": "30.53",
+      "wind_speed": "12.97"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 191,
+    "fields": {
+      "uuid": "d22e224a-7210-464a-8d49-f240db91cdd2",
+      "date_captured": "2024-05-03T22:00:00.476Z",
+      "date_registered": "2024-08-03T18:01:02.203Z",
+      "station": 8,
+      "temperature": "19.11",
+      "humidity": "47.10",
+      "precipitation": "1.5",
+      "wind_direction": "34.23",
+      "wind_speed": "11.20"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 192,
+    "fields": {
+      "uuid": "edb683cf-7c45-4ed7-9045-eaa26cd50b7a",
+      "date_captured": "2024-05-03T23:00:00.105Z",
+      "date_registered": "2024-08-03T18:01:02.204Z",
+      "station": 8,
+      "temperature": "18.80",
+      "humidity": "33.88",
+      "precipitation": "2.3",
+      "wind_direction": "33.96",
+      "wind_speed": "10.80"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 193,
+    "fields": {
+      "uuid": "dd78c2bb-d10a-4b0b-83cb-68bac236fbbc",
+      "date_captured": "2024-05-03T00:00:00.781Z",
+      "date_registered": "2024-08-03T18:01:02.206Z",
+      "station": 2,
+      "temperature": "18.80",
+      "humidity": "35.76",
+      "precipitation": "2.2",
+      "wind_direction": "32.99",
+      "wind_speed": "11.46"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 194,
+    "fields": {
+      "uuid": "22e3a3a3-8a7b-42a7-9356-ce94fde3f884",
+      "date_captured": "2024-05-03T01:00:00.000Z",
+      "date_registered": "2024-08-03T18:01:02.207Z",
+      "station": 2,
+      "temperature": "17.16",
+      "humidity": "40.64",
+      "precipitation": "2.0",
+      "wind_direction": "32.90",
+      "wind_speed": "5.82"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 195,
+    "fields": {
+      "uuid": "4718e214-d03d-404f-8ca4-e80beb0010c7",
+      "date_captured": "2024-05-03T02:00:00.061Z",
+      "date_registered": "2024-08-03T18:01:02.208Z",
+      "station": 2,
+      "temperature": "16.14",
+      "humidity": "45.30",
+      "precipitation": "0.2",
+      "wind_direction": "37.72",
+      "wind_speed": "5.80"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 196,
+    "fields": {
+      "uuid": "72a00bdc-b815-4d2f-a11c-b1b0c8059251",
+      "date_captured": "2024-05-03T03:00:00.331Z",
+      "date_registered": "2024-08-03T18:01:02.209Z",
+      "station": 2,
+      "temperature": "15.14",
+      "humidity": "43.60",
+      "precipitation": "1.9",
+      "wind_direction": "38.30",
+      "wind_speed": "7.55"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 197,
+    "fields": {
+      "uuid": "e1217521-64a5-4500-adef-0ab178cd1583",
+      "date_captured": "2024-05-03T04:00:00.121Z",
+      "date_registered": "2024-08-03T18:01:02.210Z",
+      "station": 2,
+      "temperature": "18.12",
+      "humidity": "32.77",
+      "precipitation": "0.2",
+      "wind_direction": "31.51",
+      "wind_speed": "7.95"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 198,
+    "fields": {
+      "uuid": "937bbc5b-bad2-4165-b3f5-34e3fbcbf910",
+      "date_captured": "2024-05-03T05:00:00.210Z",
+      "date_registered": "2024-08-03T18:01:02.211Z",
+      "station": 2,
+      "temperature": "16.23",
+      "humidity": "38.60",
+      "precipitation": "2.7",
+      "wind_direction": "30.41",
+      "wind_speed": "9.66"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 199,
+    "fields": {
+      "uuid": "c523287a-036a-47c7-8a1b-e1ccad4a891e",
+      "date_captured": "2024-05-03T06:00:00.743Z",
+      "date_registered": "2024-08-03T18:01:02.213Z",
+      "station": 2,
+      "temperature": "16.69",
+      "humidity": "41.86",
+      "precipitation": "3.9",
+      "wind_direction": "34.16",
+      "wind_speed": "10.29"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 200,
+    "fields": {
+      "uuid": "2d34526e-d46f-461a-9766-23796397ebba",
+      "date_captured": "2024-05-03T07:00:00.930Z",
+      "date_registered": "2024-08-03T18:01:02.214Z",
+      "station": 2,
+      "temperature": "21.38",
+      "humidity": "34.28",
+      "precipitation": "2.8",
+      "wind_direction": "31.40",
+      "wind_speed": "10.40"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 201,
+    "fields": {
+      "uuid": "b5fcce90-37f4-4240-8fd0-10c5fd43d8fb",
+      "date_captured": "2024-05-03T08:00:00.578Z",
+      "date_registered": "2024-08-03T18:01:02.215Z",
+      "station": 2,
+      "temperature": "23.70",
+      "humidity": "49.10",
+      "precipitation": "3.3",
+      "wind_direction": "32.20",
+      "wind_speed": "9.43"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 202,
+    "fields": {
+      "uuid": "724e5f3d-ad15-491e-8160-e0eb1c755b80",
+      "date_captured": "2024-05-03T09:00:00.802Z",
+      "date_registered": "2024-08-03T18:01:02.216Z",
+      "station": 2,
+      "temperature": "23.44",
+      "humidity": "42.47",
+      "precipitation": "1.3",
+      "wind_direction": "32.67",
+      "wind_speed": "8.63"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 203,
+    "fields": {
+      "uuid": "f93afb8f-76d7-4045-9b35-108eb05a1b1c",
+      "date_captured": "2024-05-03T10:00:00.689Z",
+      "date_registered": "2024-08-03T18:01:02.217Z",
+      "station": 2,
+      "temperature": "26.16",
+      "humidity": "48.56",
+      "precipitation": "0.4",
+      "wind_direction": "33.37",
+      "wind_speed": "11.67"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 204,
+    "fields": {
+      "uuid": "7da68a2b-f8f2-4dca-a296-981b0fea4afa",
+      "date_captured": "2024-05-03T11:00:00.707Z",
+      "date_registered": "2024-08-03T18:01:02.218Z",
+      "station": 2,
+      "temperature": "23.30",
+      "humidity": "37.39",
+      "precipitation": "3.1",
+      "wind_direction": "37.79",
+      "wind_speed": "6.90"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 205,
+    "fields": {
+      "uuid": "511c72ab-146e-4209-84f2-48aa72bd4747",
+      "date_captured": "2024-05-03T12:00:00.812Z",
+      "date_registered": "2024-08-03T18:01:02.219Z",
+      "station": 2,
+      "temperature": "22.28",
+      "humidity": "47.30",
+      "precipitation": "2.3",
+      "wind_direction": "31.23",
+      "wind_speed": "11.20"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 206,
+    "fields": {
+      "uuid": "0ee7f147-2e9c-43c5-bfc3-c43bd03a2401",
+      "date_captured": "2024-05-03T13:00:00.216Z",
+      "date_registered": "2024-08-03T18:01:02.220Z",
+      "station": 2,
+      "temperature": "23.77",
+      "humidity": "44.14",
+      "precipitation": "1.9",
+      "wind_direction": "38.31",
+      "wind_speed": "12.38"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 207,
+    "fields": {
+      "uuid": "5aaffe6e-f9b7-49ed-bef4-7a876800d94b",
+      "date_captured": "2024-05-03T14:00:00.108Z",
+      "date_registered": "2024-08-03T18:01:02.221Z",
+      "station": 2,
+      "temperature": "26.66",
+      "humidity": "50.60",
+      "precipitation": "3.6",
+      "wind_direction": "30.23",
+      "wind_speed": "6.92"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 208,
+    "fields": {
+      "uuid": "054fb2f9-aecf-4a8c-a3dd-890144cf0b28",
+      "date_captured": "2024-05-03T15:00:00.433Z",
+      "date_registered": "2024-08-03T18:01:02.223Z",
+      "station": 2,
+      "temperature": "21.87",
+      "humidity": "45.59",
+      "precipitation": "1.3",
+      "wind_direction": "35.89",
+      "wind_speed": "6.91"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 209,
+    "fields": {
+      "uuid": "51569086-4548-4402-b72e-bddccd537c8d",
+      "date_captured": "2024-05-03T16:00:00.121Z",
+      "date_registered": "2024-08-03T18:01:02.224Z",
+      "station": 2,
+      "temperature": "26.18",
+      "humidity": "36.57",
+      "precipitation": "1.5",
+      "wind_direction": "35.81",
+      "wind_speed": "7.86"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 210,
+    "fields": {
+      "uuid": "192b19cf-fff9-461e-b023-495d7ad02f1d",
+      "date_captured": "2024-05-03T17:00:00.644Z",
+      "date_registered": "2024-08-03T18:01:02.225Z",
+      "station": 2,
+      "temperature": "24.66",
+      "humidity": "33.91",
+      "precipitation": "1.6",
+      "wind_direction": "34.80",
+      "wind_speed": "7.30"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 211,
+    "fields": {
+      "uuid": "7e959c72-d1dc-4f8b-ac02-df1504de691d",
+      "date_captured": "2024-05-03T18:00:00.329Z",
+      "date_registered": "2024-08-03T18:01:02.226Z",
+      "station": 2,
+      "temperature": "23.98",
+      "humidity": "45.53",
+      "precipitation": "2.5",
+      "wind_direction": "30.23",
+      "wind_speed": "11.10"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 212,
+    "fields": {
+      "uuid": "cbdb6787-0a50-4117-a35a-46cab2a462c3",
+      "date_captured": "2024-05-03T19:00:00.250Z",
+      "date_registered": "2024-08-03T18:01:02.227Z",
+      "station": 2,
+      "temperature": "25.50",
+      "humidity": "50.84",
+      "precipitation": "1.2",
+      "wind_direction": "31.45",
+      "wind_speed": "6.10"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 213,
+    "fields": {
+      "uuid": "0b071a89-a4ac-4abb-bbef-6893c403f37f",
+      "date_captured": "2024-05-03T20:00:00.931Z",
+      "date_registered": "2024-08-03T18:01:02.228Z",
+      "station": 2,
+      "temperature": "22.41",
+      "humidity": "38.83",
+      "precipitation": "1.3",
+      "wind_direction": "32.61",
+      "wind_speed": "9.97"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 214,
+    "fields": {
+      "uuid": "cf169b0b-6ced-418c-be13-1208f930c5bd",
+      "date_captured": "2024-05-03T21:00:00.852Z",
+      "date_registered": "2024-08-03T18:01:02.229Z",
+      "station": 2,
+      "temperature": "24.29",
+      "humidity": "34.81",
+      "precipitation": "3.7",
+      "wind_direction": "30.13",
+      "wind_speed": "7.31"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 215,
+    "fields": {
+      "uuid": "6af70779-954a-449a-be92-37431074ec64",
+      "date_captured": "2024-05-03T22:00:00.617Z",
+      "date_registered": "2024-08-03T18:01:02.230Z",
+      "station": 2,
+      "temperature": "16.90",
+      "humidity": "44.91",
+      "precipitation": "2.2",
+      "wind_direction": "33.27",
+      "wind_speed": "6.20"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 216,
+    "fields": {
+      "uuid": "bfcd3872-82af-4696-92f7-8e63a9054933",
+      "date_captured": "2024-05-03T23:00:00.707Z",
+      "date_registered": "2024-08-03T18:01:02.231Z",
+      "station": 2,
+      "temperature": "17.00",
+      "humidity": "38.22",
+      "precipitation": "1.2",
+      "wind_direction": "30.27",
+      "wind_speed": "10.93"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 217,
+    "fields": {
+      "uuid": "3dd794bf-a566-461b-8453-ad111b3400cd",
+      "date_captured": "2024-05-03T00:00:00.426Z",
+      "date_registered": "2024-08-03T18:01:02.232Z",
+      "station": 10,
+      "temperature": "16.40",
+      "humidity": "32.54",
+      "precipitation": "0.6",
+      "wind_direction": "34.89",
+      "wind_speed": "7.30"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 218,
+    "fields": {
+      "uuid": "91450a8d-9d58-495e-96aa-ba954c7b398d",
+      "date_captured": "2024-05-03T01:00:00.863Z",
+      "date_registered": "2024-08-03T18:01:02.233Z",
+      "station": 10,
+      "temperature": "19.10",
+      "humidity": "30.66",
+      "precipitation": "3.6",
+      "wind_direction": "34.97",
+      "wind_speed": "7.97"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 219,
+    "fields": {
+      "uuid": "9cb657c6-b2af-4389-ac48-46d664c20cdf",
+      "date_captured": "2024-05-03T02:00:00.811Z",
+      "date_registered": "2024-08-03T18:01:02.234Z",
+      "station": 10,
+      "temperature": "15.30",
+      "humidity": "41.87",
+      "precipitation": "3.9",
+      "wind_direction": "33.85",
+      "wind_speed": "8.25"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 220,
+    "fields": {
+      "uuid": "8a4c28bb-be7d-4ccf-8036-85b5d211a290",
+      "date_captured": "2024-05-03T03:00:00.151Z",
+      "date_registered": "2024-08-03T18:01:02.235Z",
+      "station": 10,
+      "temperature": "15.81",
+      "humidity": "31.80",
+      "precipitation": "0.9",
+      "wind_direction": "38.68",
+      "wind_speed": "7.00"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 221,
+    "fields": {
+      "uuid": "6140b804-bbd7-4594-86ce-cf2accca96ec",
+      "date_captured": "2024-05-03T04:00:00.799Z",
+      "date_registered": "2024-08-03T18:01:02.236Z",
+      "station": 10,
+      "temperature": "18.36",
+      "humidity": "48.15",
+      "precipitation": "2.5",
+      "wind_direction": "35.50",
+      "wind_speed": "10.60"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 222,
+    "fields": {
+      "uuid": "f2b1b904-4fac-44a7-9e20-7855505370ac",
+      "date_captured": "2024-05-03T05:00:00.483Z",
+      "date_registered": "2024-08-03T18:01:02.237Z",
+      "station": 10,
+      "temperature": "17.62",
+      "humidity": "30.77",
+      "precipitation": "1.8",
+      "wind_direction": "30.19",
+      "wind_speed": "6.52"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 223,
+    "fields": {
+      "uuid": "d1770ef1-eb27-4adc-95b5-1812832510c3",
+      "date_captured": "2024-05-03T06:00:00.185Z",
+      "date_registered": "2024-08-03T18:01:02.238Z",
+      "station": 10,
+      "temperature": "18.27",
+      "humidity": "40.60",
+      "precipitation": "2.1",
+      "wind_direction": "36.73",
+      "wind_speed": "10.28"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 224,
+    "fields": {
+      "uuid": "6704f3e6-155f-4619-add3-c705b853668d",
+      "date_captured": "2024-05-03T07:00:00.081Z",
+      "date_registered": "2024-08-03T18:01:02.239Z",
+      "station": 10,
+      "temperature": "24.60",
+      "humidity": "34.14",
+      "precipitation": "2.6",
+      "wind_direction": "35.39",
+      "wind_speed": "8.63"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 225,
+    "fields": {
+      "uuid": "8168f6d1-6e74-4a87-be75-499a875f9a8b",
+      "date_captured": "2024-05-03T08:00:00.895Z",
+      "date_registered": "2024-08-03T18:01:02.240Z",
+      "station": 10,
+      "temperature": "23.87",
+      "humidity": "31.74",
+      "precipitation": "0.5",
+      "wind_direction": "38.63",
+      "wind_speed": "9.17"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 226,
+    "fields": {
+      "uuid": "7f30091b-6535-4dcb-ad85-c91e57192844",
+      "date_captured": "2024-05-03T09:00:00.413Z",
+      "date_registered": "2024-08-03T18:01:02.241Z",
+      "station": 10,
+      "temperature": "25.18",
+      "humidity": "44.40",
+      "precipitation": "3.7",
+      "wind_direction": "31.77",
+      "wind_speed": "11.43"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 227,
+    "fields": {
+      "uuid": "8acf386e-eacf-4809-b7f1-8d55a4a831a5",
+      "date_captured": "2024-05-03T10:00:00.671Z",
+      "date_registered": "2024-08-03T18:01:02.242Z",
+      "station": 10,
+      "temperature": "25.45",
+      "humidity": "43.15",
+      "precipitation": "0.3",
+      "wind_direction": "35.96",
+      "wind_speed": "12.80"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 228,
+    "fields": {
+      "uuid": "10841850-a995-4485-a7cf-6079967a3920",
+      "date_captured": "2024-05-03T11:00:00.490Z",
+      "date_registered": "2024-08-03T18:01:02.244Z",
+      "station": 10,
+      "temperature": "24.36",
+      "humidity": "36.25",
+      "precipitation": "1.3",
+      "wind_direction": "36.41",
+      "wind_speed": "6.93"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 229,
+    "fields": {
+      "uuid": "1e300eda-56a8-4e39-bcb2-b74c0c690cc9",
+      "date_captured": "2024-05-03T12:00:00.333Z",
+      "date_registered": "2024-08-03T18:01:02.245Z",
+      "station": 10,
+      "temperature": "21.72",
+      "humidity": "45.31",
+      "precipitation": "0.9",
+      "wind_direction": "32.60",
+      "wind_speed": "8.76"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 230,
+    "fields": {
+      "uuid": "273bb81d-c667-4583-9a1d-c46c17973a50",
+      "date_captured": "2024-05-03T13:00:00.449Z",
+      "date_registered": "2024-08-03T18:01:02.246Z",
+      "station": 10,
+      "temperature": "21.13",
+      "humidity": "49.96",
+      "precipitation": "2.5",
+      "wind_direction": "35.91",
+      "wind_speed": "10.50"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 231,
+    "fields": {
+      "uuid": "c40be230-ac86-42eb-9eca-3bac60d0f3b7",
+      "date_captured": "2024-05-03T14:00:00.155Z",
+      "date_registered": "2024-08-03T18:01:02.247Z",
+      "station": 10,
+      "temperature": "21.67",
+      "humidity": "38.58",
+      "precipitation": "3.5",
+      "wind_direction": "35.49",
+      "wind_speed": "5.81"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 232,
+    "fields": {
+      "uuid": "fabf2942-621a-472b-82f3-14bfe0b73557",
+      "date_captured": "2024-05-03T15:00:00.663Z",
+      "date_registered": "2024-08-03T18:01:02.248Z",
+      "station": 10,
+      "temperature": "24.80",
+      "humidity": "35.10",
+      "precipitation": "1.3",
+      "wind_direction": "37.56",
+      "wind_speed": "6.19"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 233,
+    "fields": {
+      "uuid": "718f4a38-a816-44e5-9a09-a4849e090a2c",
+      "date_captured": "2024-05-03T16:00:00.093Z",
+      "date_registered": "2024-08-03T18:01:02.249Z",
+      "station": 10,
+      "temperature": "23.13",
+      "humidity": "41.90",
+      "precipitation": "0.5",
+      "wind_direction": "34.64",
+      "wind_speed": "12.94"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 234,
+    "fields": {
+      "uuid": "583258e7-d62c-4695-895c-9cb74974e5f6",
+      "date_captured": "2024-05-03T17:00:00.750Z",
+      "date_registered": "2024-08-03T18:01:02.250Z",
+      "station": 10,
+      "temperature": "21.90",
+      "humidity": "32.39",
+      "precipitation": "0.1",
+      "wind_direction": "36.86",
+      "wind_speed": "9.11"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 235,
+    "fields": {
+      "uuid": "a3dcec3a-d078-424f-9187-1a7459e86715",
+      "date_captured": "2024-05-03T18:00:00.241Z",
+      "date_registered": "2024-08-03T18:01:02.251Z",
+      "station": 10,
+      "temperature": "25.57",
+      "humidity": "36.32",
+      "precipitation": "2.2",
+      "wind_direction": "34.64",
+      "wind_speed": "5.11"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 236,
+    "fields": {
+      "uuid": "446f1e44-8a9f-4812-93ab-f96006cdcf78",
+      "date_captured": "2024-05-03T19:00:00.772Z",
+      "date_registered": "2024-08-03T18:01:02.252Z",
+      "station": 10,
+      "temperature": "22.33",
+      "humidity": "41.33",
+      "precipitation": "2.9",
+      "wind_direction": "31.54",
+      "wind_speed": "10.28"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 237,
+    "fields": {
+      "uuid": "6abca3d1-e982-4c58-8730-a3bfce2af048",
+      "date_captured": "2024-05-03T20:00:00.566Z",
+      "date_registered": "2024-08-03T18:01:02.254Z",
+      "station": 10,
+      "temperature": "23.46",
+      "humidity": "31.38",
+      "precipitation": "3.3",
+      "wind_direction": "34.81",
+      "wind_speed": "5.50"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 238,
+    "fields": {
+      "uuid": "b8c52a14-2d4d-429b-871e-06a82f74a1cd",
+      "date_captured": "2024-05-03T21:00:00.001Z",
+      "date_registered": "2024-08-03T18:01:02.255Z",
+      "station": 10,
+      "temperature": "24.40",
+      "humidity": "46.27",
+      "precipitation": "3.5",
+      "wind_direction": "36.73",
+      "wind_speed": "11.21"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 239,
+    "fields": {
+      "uuid": "b559ae61-4a1e-4b27-9bcb-fa9947332bd5",
+      "date_captured": "2024-05-03T22:00:00.069Z",
+      "date_registered": "2024-08-03T18:01:02.256Z",
+      "station": 10,
+      "temperature": "17.06",
+      "humidity": "48.12",
+      "precipitation": "2.3",
+      "wind_direction": "37.39",
+      "wind_speed": "12.73"
+    }
+  },
+  {
+    "model": "measurements.measurement",
+    "pk": 240,
+    "fields": {
+      "uuid": "e5e2fa77-0d7c-472b-bf33-f5b26d3a3e1b",
+      "date_captured": "2024-05-03T23:00:00.170Z",
+      "date_registered": "2024-08-03T18:01:02.257Z",
+      "station": 10,
+      "temperature": "16.37",
+      "humidity": "46.81",
+      "precipitation": "2.2",
+      "wind_direction": "36.58",
+      "wind_speed": "6.46"
+    }
+  }
+]
